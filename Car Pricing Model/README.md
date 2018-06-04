@@ -32,10 +32,10 @@ Also, I'd used the VIF to check the multicollinearity, multicollinearity is a ph
 
 * **R2** is a number which explains what portion of the given data variation is explained by the developed model. It always takes a value between 0 & 1. In general term, it provides a measure of how well actual outcomes are replicated by the model, based on the proportion of total variation of outcomes explained by the model, i.e. expected outcomes. Overall, the higher the R-squared, the better the model fits your data.
 
-- **R2=1-RSS/TSS**
+-  **R2=1-RSS/TSS**
 
-- **RSS (Residual Sum of Squares):** In statistics, it is defined as the total sum of error across the whole sample. It is the measure of the difference between the expected and the actual output. A small RSS indicates a tight fit of the model to the data.
+-  **RSS (Residual Sum of Squares):** In statistics, it is defined as the total sum of error across the whole sample. It is the measure of the difference between the expected and the actual output. A small RSS indicates a tight fit of the model to the data.
 
-- **TSS (Total sum of squares):** It is the sum of errors of the data points from mean of response variable.
+-  **TSS (Total sum of squares):** It is the sum of errors of the data points from mean of response variable.
 
 * **Adjusted R-squared** is a better metric than R-squared to assess how good the model fits the data. R-squared always increases if additional variables are added into the model, even if they are not related to the dependent variable. R-squared thus is not a reliable metric for model accuracy. Adjusted R-squared, on the other hand, penalises R-squared for unnecessary addition of variables. So, if the variable added does not increase the accuracy adequately, adjusted R-squared decreases although R-squared might increase.
