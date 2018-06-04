@@ -23,11 +23,10 @@ As a part of the solution, I've done the
 Linear Regression is used When the dependent variable which we have to predict is the continuous variable
 But when the dependent variable is numeric but has some order so we won't use the linear regression in this case
 * First build a general model with all the variables
-* Then used the StepAIC function to remove the insignificant variables (direction as "both")
-As I mentioned earlier, I 'd used the stepAIC function to get the list of significant variables, there are three variant of stepAIC function- forward, backward and both.
+* Then used the StepAIC function to remove the insignificant variables (direction as "both") **_There are three variant of stepAIC function- forward, backward and both_**.
 * I've checked for the p-value and VIF for further removing the variables
 
-Also, we have to use the VIF to check the multicollinearity, multicollinearity is a phenomenon in which one predictor variable in a multiple regression model can be linearly predicted from the others with a substantial degree of accuracy. So removing those variable is a good idea
+Also, I'd used the VIF to check the multicollinearity, multicollinearity is a phenomenon in which one predictor variable in a multiple regression model can be linearly predicted from the others with a substantial degree of accuracy. So removing those variable is a good idea
 
 **Model Evaluation:** There are measures like R-square, adjusted R-square
 
