@@ -3,8 +3,8 @@ A Chinese automobile company aspired to enter the US market by setting up their 
 
 So, They want to understand the factors on which the pricing of a car depends. Specifically, they want to understand the factors affecting the pricing of cars in the American marketing, since those may be very different from the Chinese market. Essentially, the company wants to know:
 
-**1.** Which variables are significant in predicting the price of a car
-**2.** How well those variables describe the price of a car
+1. Which variables are significant in predicting the price of a car
+2. How well those variables describe the price of a car
 
 Dataset is having 21k records with 26 variables
 
@@ -16,9 +16,9 @@ As a part of the solution, I've done the
 	- oulier detection
 
 2. Exploratory Data Analysis
-**3.** Created the dummy variables for the categorical features
-**4.** Divided the data in to the training and the test data
-**5.** Build a linear regression model using the lm() function in R
+3. Created the dummy variables for the categorical features
+4. Divided the data in to the training and the test data
+5. Build a linear regression model using the lm() function in R
 
 Linear Regression is used When the dependent variable which we have to predict is the continuous variable
 But when the dependent variable is numeric but has some order so we won't use the linear regression in this case
