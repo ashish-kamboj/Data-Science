@@ -10,12 +10,12 @@ Dataset is having 21k records with 26 variables
 
 # Solution:
 As a part of the solution, I've done the
-**1.** Data preparation
+1. Data preparation
 	- Cleaning data
 	- checking for missing value
 	- oulier detection
 
-**2.** Exploratory Data Analysis
+2. Exploratory Data Analysis
 **3.** Created the dummy variables for the categorical features
 **4.** Divided the data in to the training and the test data
 **5.** Build a linear regression model using the lm() function in R
