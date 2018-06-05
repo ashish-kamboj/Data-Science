@@ -42,19 +42,18 @@ As a part of the solution, I've done the
 
 7. Predicted the probabilities of Attrition for test data (as the output of the Logistic regression model is the probablities not the class)
 
-8. Tested for the various probability cutoff (like 50%, 40% etc.) [in order to convert thr proabalities in to class] and checked how many records are    classified as correct by confusionMatrix.
+8. Tested for the various probability cutoff (like 50%, 40% etc.) [in order to convert the proabalities in to class] and checked how many records are classified as correct by confusionMatrix.
 
 9. Then find the optimal probalility cutoff and calculated the acuracy, specificity and sensitivity
-   accuracy - yeses (or positives) correctly predicted by it as yeses (or positives) and nos (or negatives) correctly predicted by the model as nos (or 	      negatives)
-   Specificity - specificity is equal to the proportion of nos (or negatives) correctly predicted by the model as nos (or negatives).
-   Sensitivity - Sensitivity of a model is the proportion of yeses (or positives) correctly predicted by it as yeses (or positives).
+   accuracy - yeses (or positives) correctly predicted by it as yeses (or positives) and nos (or negatives) correctly predicted by the model as nos (or negatives)
+   - **Specificity -** specificity is equal to the proportion of nos (or negatives) correctly predicted by the model as nos (or negatives).
+   - **Sensitivity -** Sensitivity of a model is the proportion of yeses (or positives) correctly predicted by it as yeses (or positives).
 
 10. Also, calculated the KS-statistis and plotted the Gain and Lift chart
 
     * **KS-statistics:** A high KS statistic means that not only does your model have all churns at the top, it has has all non-churns at the bottom. For a good model, KS statistic would be more than 40% and would lie in the top few deciles
 
-    I plotted the ROC curve : ROC can be plotted between % of bad and % of good, or in simple language, % of eventhappen and % of non-event happen.
-    The perfect model is pretty much a right triangle, whereas the random model is a straight line. Basically, a model that rises steeply is a good model.
+ * **ROC curve:** I plotted ROC curve which can be plotted between % of bad and % of good, or in simple language, % of eventhappen and % of non-event happen.The perfect model is pretty much a right triangle, whereas the random model is a straight line. Basically, a model that rises steeply is a good model.
 
     * **Gain and Lift Chart:** Gain and Lift chart are mainly concerned to check the rank ordering of the probabilities
 
