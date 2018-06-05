@@ -53,7 +53,7 @@ As a part of the solution, I've done the
 
     * **KS-statistics:** A high KS statistic means that not only does your model have all churns at the top, it has has all non-churns at the bottom. For a good model, KS statistic would be more than 40% and would lie in the top few deciles
 
- * 	**ROC curve:** I plotted ROC curve which can be plotted between % of bad and % of good, or in simple language, % of eventhappen and % of non-event happen.The perfect model is pretty much a right triangle, whereas the random model is a straight line. Basically, a model that rises steeply is a good model.
+	* **ROC curve:** I plotted ROC curve which can be plotted between % of bad and % of good, or in simple language, % of eventhappen and % of non-event happen.The perfect model is pretty much a right triangle, whereas the random model is a straight line. Basically, a model that rises steeply is a good model.
 
     * **Gain and Lift Chart:** Gain and Lift chart are mainly concerned to check the rank ordering of the probabilities
 
