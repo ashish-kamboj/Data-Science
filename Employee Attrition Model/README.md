@@ -11,7 +11,7 @@ Hence, the management wants to understand what factors they should focus on, in 
 # About Data:
 
 Data is divide in to five files-
-1. Employee information -- Demographic information, education details, salary etc.
+1. Employee information (Demographic information, education details, salary etc.)
 2. Employee survey details
 3. manager Survey Details
 4. Employee in-time(check-in time)
@@ -53,7 +53,7 @@ As a part of the solution, I've done the
 
     * **KS-statistics:** A high KS statistic means that not only does your model have all churns at the top, it has has all non-churns at the bottom. For a good model, KS statistic would be more than 40% and would lie in the top few deciles
 
- * **ROC curve:** I plotted ROC curve which can be plotted between % of bad and % of good, or in simple language, % of eventhappen and % of non-event happen.The perfect model is pretty much a right triangle, whereas the random model is a straight line. Basically, a model that rises steeply is a good model.
+ * 	**ROC curve:** I plotted ROC curve which can be plotted between % of bad and % of good, or in simple language, % of eventhappen and % of non-event happen.The perfect model is pretty much a right triangle, whereas the random model is a straight line. Basically, a model that rises steeply is a good model.
 
     * **Gain and Lift Chart:** Gain and Lift chart are mainly concerned to check the rank ordering of the probabilities
 
