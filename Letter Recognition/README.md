@@ -10,6 +10,7 @@ and Test dataset was having - 10000 obs. of 785 variables
 ### Solution
 
 As a part of the solution, I've done the
+
 **1.** Data preparation
 	- Cleaning data
 	- checking for missing or NA values
@@ -28,11 +29,11 @@ There could be multiple lines (hyperplanes) possible, which perfectly separate t
 
 Instead of searching for the margin that exactly classifies each and every data point to the correct class. The points that are close to the hyperplane are only considered for constructing the hyperplane, and they are called support vectors.
 
-As I've talked about hyperplanes, the Maximal Margin Classifier, and the Support Vector Classifier. All of these are linear models (since they use linear hyperplanes to separate the classes). However, many real-world data sets are not separable by linear boundaries. To solve those problems SVM has a technique called Kernel, These are functions which takes low dimensional input space and transform it to a higher dimensional space i.e. it converts not separable problem to separable problem.
+As mentioned about hyperplanes, the Maximal Margin Classifier, and the Support Vector Classifier. All of these are linear models (since they use linear hyperplanes to separate the classes). However, many real-world data sets are not separable by linear boundaries. To solve those problems SVM has a technique called Kernel, These are functions which takes low dimensional input space and transform it to a higher dimensional space i.e. it converts not separable problem to separable problem.
 
-	- Linear Kernel : This is the same as the Support Vector Classifier or the hyperplane, without any transformation at all.
-	- Polynomial Kernel : This kernel function is capable of creating nonlinear, polynomial decision boundaries.
-	- RBF Kernel : This is the most complex kernel function; it is capable of transforming highly nonlinear feature spaces to linear ones. It is even 		       capable of creating elliptical (i.e. enclosed) decision boundaries.
+- **Linear Kernel:** This is the same as the Support Vector Classifier or the hyperplane, without any transformation at all.
+- **Polynomial Kernel:** This kernel function is capable of creating nonlinear, polynomial decision boundaries.
+- **RBF Kernel:** This is the most complex kernel function; it is capable of transforming highly nonlinear feature spaces to linear ones. It is even capable of creating elliptical (i.e. enclosed) decision boundaries.
 
 For our problem I've tried out all the three kernel, RBF kernel gave the best accuracy.
 
