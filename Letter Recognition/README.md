@@ -42,7 +42,7 @@ For our problem I've tried out all the three kernel, RBF kernel gave the best ac
 
 I'd also tried the Logistic Regression for this classification problem but the accuracy was very low as this is a linear classifier to able to classify all the points.
 
-If we compare SVM with Logistic Regression and Decision Trees
+**Comparison: SVM with Logistic Regression and Decision Trees**
   - Though SVM is complex model but it provides good accuracy
   - Logistic regression is simple model and easilt interpretable but the accuracyy wasn't not good if the dtaa is not linearly separable
   - Decision Tree is not so complex, easily interpretable and expalainable, accuracy is also very good
