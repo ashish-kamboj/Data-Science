@@ -5,7 +5,7 @@ A classic problem in the field of pattern recognition is that of handwritten dig
 ## About Dataset:
 
 * Training dataset contained - 60000 obs. of 785 variables
-* and Test dataset was having - 10000 obs. of 785 variables
+* Test dataset was having - 10000 obs. of 785 variables
 
 ## Solution
 
@@ -19,6 +19,7 @@ As a part of the solution, I've done the
 
 2. As those are the pixel values (i.e. between 0-255) we don't need scaing of variables
 3. Build a SVM model using ksvm() function in R.
+
 
 ## What is SVM and How does it work?
 
