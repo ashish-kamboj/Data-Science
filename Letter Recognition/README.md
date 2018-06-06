@@ -1,21 +1,21 @@
-### Problem Statement:
+## Problem Statement:
 
 A classic problem in the field of pattern recognition is that of handwritten digit recognition. Suppose that we have an image of a digit submitted by a user via a scanner, a tablet, or other digital devices. So, I had to develop a model that can correctly identify the digit (between 0-9) written in an image.
 
-### About Dataset:
+## About Dataset:
 
 Training dataset contained - 60000 obs. of 785 variables
 and Test dataset was having - 10000 obs. of 785 variables
 
-### Solution
+## Solution
 
 As a part of the solution, I've done the
 
 **1.** Data preparation
-	- Cleaning data
-	- checking for missing or NA values
-	- Making target class to factor
-	- Renaming columns
+		- Cleaning data
+		- checking for missing or NA values
+		- Making target class to factor
+		- Renaming columns
 
 **2.** As those are the pixel values (i.e. between 0-255) we don't need scaing of variables
 
