@@ -11,15 +11,14 @@ and Test dataset was having - 10000 obs. of 785 variables
 
 As a part of the solution, I've done the
 
-**1.** Data preparation
+1. Data preparation
 	- Cleaning data
 	- checking for missing or NA values
 	- Making target class to factor
 	- Renaming columns
 
-**2.** As those are the pixel values (i.e. between 0-255) we don't need scaing of variables
-
-**3.** Build a SVM model using ksvm() function in R. Constructed model using-
+2. As those are the pixel values (i.e. between 0-255) we don't need scaing of variables
+3. Build a SVM model using ksvm() function in R.
 
 ### What is SVM and How does it work?
 
@@ -37,7 +36,7 @@ As mentioned about hyperplanes, the Maximal Margin Classifier, and the Support V
 
 For our problem I've tried out all the three kernel, RBF kernel gave the best accuracy.
 
-**4. Hyperparameter tuning and Cross Validation**
+4. **Hyperparameter tuning and Cross Validation**
 	- Performed 5-fold cross validation by "svmLinear" method and metric used is accuracy, to get the optimal value of C (cost of misclassification)
 	- Performed 5-fold cross validation by "svmRadial" method and metric used is accuracy,  in order to get the optimal value of C and Sigma (sigma to control the amount of nonlinearity in the model. The higher the value of sigma, the more is the nonlinearity introduced).
 
