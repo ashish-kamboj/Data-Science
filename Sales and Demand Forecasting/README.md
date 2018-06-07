@@ -28,7 +28,7 @@ But not all of these 21 market buckets were of importance from the store’s poi
 
   - Auto ARIMA methodfor forecasting
     - Build a ARIMA model
-    - Performed ADF and KPSS tests for checking white nois
+    - Performed ADF and KPSS tests for checking white noise
 
 ## Model evaluation:
 1. Forecasted the sales and quantity for the next 6 months using the above build models using **MAPE**.
