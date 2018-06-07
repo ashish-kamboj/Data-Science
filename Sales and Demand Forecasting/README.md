@@ -11,13 +11,13 @@ But not all of these 21 market buckets were of importance from the store’s poi
 ## Data preparation:
 
 1. Segmented the whole dataset into the 21 subsets based on the market and the customer segment level. 
-2. Convert the transaction-level data into a time series. Aggregate the 3 attributes  - Sales, Quantity & Profit, over the Order Date to arrive at monthly    values for these attributes.Then I got the three time-series
-3. Found the 2 most profitable and consistently profitable segments. Used the coefficient of variation for finding out the profitable segments among 21    market segments.
+2. Convert the transaction-level data into a time series. Aggregate the 3 attributes  - Sales, Quantity & Profit, over the Order Date to arrive at monthly values for these attributes.Then I got the three time-series
+3. Found the 2 most profitable and consistently profitable segments. Used the coefficient of variation for finding out the profitable segments among 21 market segments.
 4. Smoothen the data (require for classical decomposition).
 
 ## Model building:
 
-1.Separate out the last 6 months values from the dataset
+1. Separate out the last 6 months values from the dataset
 2. Build the model using-
   - Classical decomposition
     - Fitted a multiplicative or additive model with trend and seasonality to the data, to find the global value of series
@@ -31,4 +31,4 @@ But not all of these 21 market buckets were of importance from the store’s poi
     - Performed ADF and KPSS tests for checking white nois
 
 ## Model evaluation:
-1. Forecasted the sales and quantity for the next 6 months using the above build models using MAPE.
+1. Forecasted the sales and quantity for the next 6 months using the above build models using **MAPE**.
