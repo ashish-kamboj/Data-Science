@@ -24,7 +24,6 @@ Spark Funds wants to invest where most other investors are investing. This patte
  
 ## Data:
 1. **Company details**
-companies: A table with basic data of companies
 
 - Permalink:		Unique ID of company
 - name: 		    Company name
