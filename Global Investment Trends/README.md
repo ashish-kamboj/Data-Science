@@ -25,15 +25,11 @@ The business objectives and goals of data analysis are pretty straightforward.
 
 * Business objective: The objective is to identify the best sectors, countries, and a suitable investment type for making investments. The overall strategy is to invest where others are investing, implying that the best sectors and countries are the ones where most investments are happening.
 
-* Goals of data analysis: Your goals are divided into three sub-goals:
-	- Investment type analysis: Understanding investments in venture, seed/angel, private equity categories, etc. so Spark Funds can decide which type 				    is best suited for its strategy.
+* Goals of data analysis:
+	- Investment type analysis: Understanding investments in venture, seed/angel, private equity categories, etc. so Spark Funds can decide which type is best suited for its strategy.
 	- Country analysis: Understanding which countries have had the most investments in the past. These will be Spark Funds’ favourites as well.
-	- Sector analysis: Understanding the distribution of investments across the eight main sectors. (Note that we are interested in the eight main 			   sectors provided in the mapping file. The two files — companies and rounds2 — have numerous sub-sector names; hence, you will                            need to map each sub-sector to its main sector.)
+	- Sector analysis: Understanding the distribution of investments across the eight main sectors. (Note that we are interested in the eight main sectors provided in the mapping file. The two files — companies and rounds2 — have numerous sub-sector names; hence, you will need to map each sub-sector to its main sector.)
  
-### How do you approach the case study? What are the deliverables?
-
-The entire case study is divided into checkpoints to help you navigate. For each checkpoint, you are advised to fill in the tables into the spreadsheet attached in the download segment. The tables are also mentioned under the 'Results Expected' section after each checkpoint. Since this is the first case study, you have been provided with some additional guidance. Going forward you will be expected to structure and solve the problem by yourself, just like you would be solving problems in real life scenarios.
-
 ## Data:
 
 1. **Company details**
@@ -48,6 +44,7 @@ companies: A table with basic data of companies
 - state_code:		State
 
 2. **Funding round details**
+
 rounds2: The most important parameters are explained below:
 
 - company_permalink:	    Unique ID of company
@@ -61,7 +58,7 @@ rounds2: The most important parameters are explained below:
 mapping.csv: This file maps the numerous category names in the companies table (such 3D printing, aerospace, agriculture, etc.) to eight broad sector names. The purpose is to simplify the analysis into eight sector buckets, rather than trying to analyse hundreds of them.
 
 
-### Checkpoint 1: Data Cleaning 1
+### Checkpoint 1: Data Cleaning
 
 - How many unique companies are present in rounds2?
 - How many unique companies are present in companies?
