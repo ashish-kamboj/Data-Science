@@ -11,12 +11,9 @@ Spark Funds has two minor constraints for investments:
 
 
 ### What is the strategy?
-
 Spark Funds wants to invest where most other investors are investing. This pattern is often observed among early stage startup investors.
  
 ### What is Spark Funds’ business objective?
-
-The business objectives and goals of data analysis are pretty straightforward.
 
 * Business objective: The objective is to identify the best sectors, countries, and a suitable investment type for making investments. The overall strategy is to invest where others are investing, implying that the best sectors and countries are the ones where most investments are happening.
 
@@ -26,7 +23,6 @@ The business objectives and goals of data analysis are pretty straightforward.
 	- Sector analysis: Understanding the distribution of investments across the eight main sectors. (Note that we are interested in the eight main sectors provided in the mapping file. The two files — companies and rounds2 — have numerous sub-sector names; hence, you will need to map each sub-sector to its main sector.)
  
 ## Data:
-
 1. **Company details**
 companies: A table with basic data of companies
 
