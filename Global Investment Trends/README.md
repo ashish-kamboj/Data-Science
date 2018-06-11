@@ -1,6 +1,5 @@
 ## Project Brief:
-You work for Spark Funds, an asset management company. Spark Funds wants to make investments in a few companies. 
-The CEO of Spark Funds wants to understand the global trends in investments so that she can take the investment decisions effectively.
+Spark Funds, an asset management company wants to make investments in a few companies. Spark Funds wants to understand the global trends in investments so that they can take the investment decisions effectively.
 
 ## Business and Data Understanding:
 Spark Funds has two minor constraints for investments:
@@ -14,10 +13,6 @@ Spark Funds has two minor constraints for investments:
 ### What is the strategy?
 
 Spark Funds wants to invest where most other investors are investing. This pattern is often observed among early stage startup investors.
-
-### Where did we get the data from? 
-
-We have taken real investment data from crunchbase.com, so the insights you get may be incredibly useful. For this group project, we have divided the data into the following files:
  
 ### What is Spark Funds’ business objective?
 
