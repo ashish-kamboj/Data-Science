@@ -34,9 +34,7 @@ companies: A table with basic data of companies
 - country_code: Country Code 
 - state_code:		State
 
-2. **Funding round details**
-
-rounds2: The most important parameters are explained below:
+2. **Funding round details** : (rounds.csv)
 
 - company_permalink:	    Unique ID of company
 - funding_round_permalink:Unique ID of funding round
@@ -48,7 +46,6 @@ rounds2: The most important parameters are explained below:
 3. **Sector Classification**
 mapping.csv: This file maps the numerous category names in the companies table (such 3D printing, aerospace, agriculture, etc.) to eight broad sector names. The purpose is to simplify the analysis into eight sector buckets, rather than trying to analyse hundreds of them.
 
-
 ### Checkpoint 1: Data Cleaning
 
 - How many unique companies are present in rounds2?
@@ -56,8 +53,6 @@ mapping.csv: This file maps the numerous category names in the companies table (
 - In the companies data frame, which column can be used as the unique key for each company? Write the name of the column.
 - Are there any companies in the rounds2 file which are not present in companies? Answer yes or no: Y/N
 - Merge the two data frames so that all variables (columns) in the companies frame are added to the rounds2 data frame. Name the merged frame master_frame. How many observations are present in master_frame?
-
-JOin all the tables
 
 ### Checkpoint 2: Funding Type Analysis
 
