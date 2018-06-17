@@ -3,24 +3,24 @@ Building a  Market Mix Model for one of the e-commerce firm (specializing in ele
 In order to make marketing budget for the next year need to develop a market mix model to observe the actual impact of different marketing variables over the last year and based on the understanding of the model will have to recommend the optimal budget allocation for different marketing levers.
 
 1. **Data Exploration**
-	• variable Identification
-	• Univariate and Bi-Variate Analysis
+	- variable Identification
+	- Univariate and Bi-Variate Analysis
 
 2. **Data Prepartion**
-	• Missing Values and Outlier Treatment
-	• Variable Transformation
-	• Unified date format
+	- Missing Values and Outlier Treatment
+	- Variable Transformation
+	- Unified date format
 
 3. **Feature Engineering**
-	• Feature Extraction and Selection
-	• Variable Interaction
-	• Feature Creation
+	- Feature Extraction and Selection
+	- Variable Interaction
+	- Feature Creation
 
 4. **Model Building**
-	• Basic linear model
-	• Multiplicative model
-	• Exponential attraction and multinomial logit model
-	• Koyck and distributed lag model
-	• Hierarchical model
+	- Basic linear model
+	- Multiplicative model
+	- Exponential attraction and multinomial logit model
+	- Koyck and distributed lag model
+	- Hierarchical model
 
 5. **Model Evaluation**
