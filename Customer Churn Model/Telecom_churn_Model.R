@@ -1,11 +1,5 @@
 #############################Telecom Solution###################
 ################################################################
-#Business Understanding
-#Data Understanding
-#Data Preparation & EDA
-#Model Building 
-#Model Evaluation
-################################################################
 
 ### Business Understanding:
 
