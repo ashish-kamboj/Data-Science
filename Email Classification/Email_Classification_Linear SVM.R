@@ -1,32 +1,5 @@
-############################ Email Classification Problem ############################
-# 1. Business Understanding
-# 2. Data Understanding
-# 3. Data Preparation
-# 4. Model Building 
-#  4.1 Linear SVM Model at C=1
-#  4.2 Linear SVM Model at C=2
-
-# 5  Cross validation 
-# 5.1. Tunning linear SVM model (will cover in the next lecture)
-
 #####################################################################################
-
-# 1. Business Understanding: 
-
-# The "spam" concept is diverse:
-# 1. Advertisements for products/web
-# 2. Sites,make money fast schemes etc.
-
-# Based on the past mails,our objective is to identify whether a given email is spam or not.
-
-#####################################################################################
-
-# 2. Data Understanding: 
-# https://archive.ics.uci.edu/ml/machine-learning-databases/spambase/spambase.names
-# Number of Instances: 4601
-# Number of Attributes: 58 (57 continuous, 1 nominal class label)
-
-#3. Data Preparation: 
+# Data Preparation: 
 
 ##Loading Neccessary libraries
 
@@ -131,10 +104,10 @@ train = email_rec[indices,]
 
 test = email_rec[!(indices),]
 
-# 4. Model Building
+# Model Building
 
 #--------------------------------------------------------------------
-# 4.1 Linear model - SVM  at Cost(C) = 1
+# Linear model - SVM  at Cost(C) = 1
 #####################################################################
 
 # Model with C =1
@@ -151,7 +124,7 @@ confusionMatrix(evaluate_1, test$spam)
 # Specificity : 0.8750
 
 #--------------------------------------------------------------------
-# 4.2 Linear model - SVM  at Cost(C) = 10
+# Linear model - SVM  at Cost(C) = 10
 #####################################################################
 
 # Model with C =10.
