@@ -15,6 +15,14 @@ The aim is to automate the process of predicting if a customer would telecom or 
   - **internet_data:** 7043 obs of 9 variables
 
 ## Data Preparation & EDA
+  - Merged the 3 data files
+  - Checked for duplicate records
+  - Missing value treatment
+  - Outlier treatment
+  - Scaling of variables or standardisation
+  - Converted the categorical variables in to factor
+  - Converted the continuousvariables in to numeric
+  - Created dummy variables for factor attributes
 
 ## Model Building 
 
