@@ -17,7 +17,7 @@ The aim is to automate the process of predicting if a customer would telecom or 
 ## Data Preparation & EDA
   - Merged the 3 data files
   - Checked for duplicate records
-  - Missing value treatment
+  - Missing value imputation
   - Outlier treatment
   - Scaling of variables or standardisation
   - Converted the categorical variables in to factor
