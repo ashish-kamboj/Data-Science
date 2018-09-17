@@ -24,6 +24,14 @@ The aim is to automate the process of predicting if a customer would telecom or 
   - Converted the continuousvariables in to numeric
   - Created dummy variables for factor attributes
 
-## Model Building 
+## Model Building
+  - Divided the data into train and test
+  - Built a Logistic Regression Model using glm() function in R
+  - Performed stepwise selection method for removing in-significant variables
 
 ## Model Evaluation
+  - Predicted the probabilities of Churn for test data using predict() function
+  - Created confusion matrix for checking the correct and incorrect classification of records
+  - Found out the optimal probalility cutoff 
+  - KS -statistic for Test Data
+  - Plotted Lift & Gain Chart 
