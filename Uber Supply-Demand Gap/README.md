@@ -5,7 +5,7 @@ Well, if these are the problems faced by customers, these very issues also impac
 Driver cancellation and non-availability of cars leading to loss of potential revenue for Uber.
 
 # Business Objectives
-The aim of analysis is to identify the root cause of the problem (i.e. cancellation and non-availability of cars) and recommend ways to improve the situation. As a result of your analysis, you should be able to present to the client the root cause(s) and possible hypotheses of the problem(s) and recommend ways to improve them.
+The aim of analysis is to identify the root cause of the problem (i.e. cancellation and non-availability of cars) and recommend ways to improve the situation. Also needs to find out the root cause(s) and possible hypotheses of the problem(s) and recommend ways to improve them.
 
 # Data Understanding
 
