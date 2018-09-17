@@ -18,3 +18,6 @@ Based on the past mails,our objective is to identify whether a given email is sp
 # Model Building 
 * Linear SVM Model at C=1
 * Linear SVM Model at C=2
+
+# Cross validation 
+* Tunning linear SVM model
