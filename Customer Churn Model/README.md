@@ -10,6 +10,9 @@ The aim is to automate the process of predicting if a customer would telecom or 
   - Overall Expenses
 
 ## Data Understanding
+  - **churn_data:** 7043 obs of 9 variables including the target variable
+  - **customer_data:** 7043 obs of 5 variables
+  - **internet_data:** 7043 obs of 9 variables
 
 ## Data Preparation & EDA
 
