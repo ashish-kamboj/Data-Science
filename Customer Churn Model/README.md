@@ -20,9 +20,9 @@ The aim is to automate the process of predicting if a customer would telecom or 
   - Missing value imputation
   - Outlier treatment
   - Scaling of variables or standardisation
-  - Converted the categorical variables in to factor
-  - Converted the continuousvariables in to numeric
-  - Created dummy variables for factor attributes
+  - Converted the categorical variables into factor
+  - Converted the continuous variables into numeric
+  - Created dummy variables for categorical variables
 
 ## Model Building
   - Divided the data into train and test
