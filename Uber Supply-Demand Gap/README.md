@@ -18,7 +18,7 @@ There are six attributes associated with each request made by a customer:
   - **Driver id:** The unique identification number of the driver
   - **Status of the request:** The final status of the trip, that can be either completed, cancelled by the driver or no cars available
   
-  Note: only the trips to and from the airport are being considered.
+  Note: only the trips to and from the airport have been considered.
   
  # Exploratory Data Analysis
  
