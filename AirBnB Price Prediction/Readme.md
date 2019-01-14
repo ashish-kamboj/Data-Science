@@ -1,3 +1,3 @@
 ## AirBnB Price Prediction
 
-Predicted teh price of different listings
+Predicted the price of different listings
