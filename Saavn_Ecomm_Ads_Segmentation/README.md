@@ -10,9 +10,9 @@
   - **City:** refers to the location of the user 
 
 **Language dataset -**
-- **Language:** refers to the language of music streamed by the user 
+  - **Language:** refers to the language of music streamed by the user 
 
-**Ads dataset – **
+**Ads dataset –**
   - **Gen_conversion:** refers to the % of all ads the user interacted with in the past. For example, if the user received 100 ads and interacted with 5, the total gen_conversion would equal 0.05. This helps one estimate general propensity of the user to engage with advertisements 
   - **Ecomm_conversion:** refers to the % of all ecommerce ads the user interacted with in the past . Similar to gen_conversion,  if the user received 100 ads from an ecommerce brand and interacted with 5, the total ecomm_conversion would equal 0.05 
   - **Last_clicked:** refers to the date of the last click of the user 
