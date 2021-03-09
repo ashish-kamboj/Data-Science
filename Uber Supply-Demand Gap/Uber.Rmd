@@ -1,0 +1,252 @@
+---
+title: "Uber Demand Supply Gap Analysis"
+output: html_document
+---
+
+### 1. Load Packages ::
+
+```{r, message=FALSE}
+library(lubridate)
+library(tidyr)
+library(dplyr)
+library(ggplot2)
+library(ggthemes)
+library(scales)
+```
+
+### 2. Load the "Uber Request Data.csv" file ::
+```{r}
+uber <- read.csv("Uber Request Data.csv", stringsAsFactors = FALSE)
+```
+
+```{r, echo=FALSE}
+View(uber)
+```
+        
+### 3. Cleaning Date columns ::
+```{r}
+datetime <- parse_date_time(uber$Request.timestamp,c("dmY HMS"),truncated = 2)
+uber$Request.timestamp <- format(datetime, "%d-%m-%Y %H:%M:%S")  
+ 
+datetime2 <- parse_date_time(uber$Drop.timestamp,c("dmY HMS"),truncated = 2)
+uber$Drop.timestamp <- format(datetime2, "%d-%m-%Y %H:%M:%S")  
+```
+
+### 4. Create Derived variables ::
+
+#### 4.1. Separate Date and Time from the "Request.timestamp" column
+```{r, warning=FALSE}     
+uber <- separate(uber, Request.timestamp,c("Request.Date","Request.Time"),sep = " ", remove = FALSE)
+```
+
+#### 4.2. Separate Hours from the "Request.Time" column (which was created in above command)
+```{r, warning=FALSE} 
+uber <- separate(uber, Request.Time,c("Request.Hour"),sep = ":", remove = FALSE)
+```
+
+#### 4.3. Converted Hours in to numeric
+```{r, warning=FALSE} 
+uber$Request.Hour <- as.numeric(uber$Request.Hour)
+```
+    
+#### 4.4. Derived Time Slots (i.e. Morning, Day Time, Evening and Late Night) from the "Requeust.Hour" column
+```{r, warning=FALSE} 
+uber$Time_Slot[uber$Request.Hour <= 3] <- c("Late Night")
+uber$Time_Slot[((uber$Request.Hour >= 4) & (uber$Request.Hour <= 10))] <- c("Morning")
+uber$Time_Slot[((uber$Request.Hour >= 11) & (uber$Request.Hour <= 16))] <- c("Day Time")
+uber$Time_Slot[((uber$Request.Hour >= 17) & (uber$Request.Hour <= 21))] <- c("Evening")
+uber$Time_Slot[which(is.na(uber$Time_Slot==T))] <- c("Late Night")
+```
+
+### 5. Uber data analysis ::
+    
+### 5.1. Code and Plot1 
+#### Frequency of Requests - "Completed", "No Cars Available" and "Trip Completed"
+```{r}
+  table(uber$Status)
+```
+
+#### Above Stats as a Data frame
+```{r}
+freq_status <- as.data.frame(table(uber$Status))
+colnames(freq_status)<- c("Status","Frequency")
+freq_status
+```
+
+#### Plot1
+```{r}
+plot1 <- ggplot(uber,aes(x=Status)) + geom_bar(position = "dodge",width = 0.3, fill="green4") + labs(x=" Trip Status", y="Number of Requests") + 
+ggtitle("Cab Request Status") + theme_hc(base_size = 18, base_family = "sans") + theme(plot.background = element_rect(fill="gray19"), axis.title.x = element_text(colour = "white"), axis.title.y = element_text(colour =  "white"),axis.text.x = element_text(colour = "white"),axis.text.y = element_text(colour = "white"),title = element_text(colour = "white"),plot.title = element_text(hjust = 0.5)) + geom_text(stat="count",aes(label=..count..),vjust=-1,color="white", size=6)
+```
+
+```{r, fig.width = 10, fig.height = 8, echo=FALSE}  
+plot1
+``` 
+         
+         
+### 5.2. Code and Plot2
+
+#### Request status based on Pickup Point
+```{r}
+table(uber$Status,uber$Pickup.point)
+```
+
+#### Above Stats as a Data frame
+```{r}
+freq_status1 <- as.data.frame(table(uber$Status,uber$Pickup.point))
+colnames(freq_status1)<- c("Status","Pickup_Point","Frequency")
+freq_status1
+```
+         
+#### Plot2
+```{r}
+plot2 <- ggplot(uber,aes(x=Status,fill=factor(Pickup.point))) + geom_bar(position = "dodge",width = 0.4) + labs(x=" Trip Status", y="Number of Requests")+
+ggtitle("Cabs Pickup Status") + theme_hc(base_size = 18, base_family = "sans") + scale_fill_manual("Pickup Point: ", values = c("Airport" = "red3", "City" = "green4")) + theme(plot.background = element_rect(fill="gray19"), axis.title.x = element_text(colour = "white"), axis.title.y = element_text(colour = "white"),axis.text.x = element_text(colour = "white"),axis.text.y = element_text(colour = "white"),title = element_text(colour = "white"),legend.title = element_text(colour = "black"),plot.title = element_text(hjust = 0.5)) + 
+geom_text(stat="count",aes(label=..count..),vjust=-0.4,color="white", size=6,position=position_dodge(width=0.4))
+```
+     
+```{r, fig.width = 10, fig.height = 7, echo=FALSE}
+plot2
+```
+                
+        
+### 5.3. Code and Plot3
+
+#### Hourly Frequency of requests based on Pickup Point
+```{r}
+table(uber$Pickup.point,uber$Request.Hour)
+```
+
+#### Above Stats as a Data frame
+```{r}
+freq_status2 <- as.data.frame(table(uber$Pickup.point,uber$Request.Hour))
+colnames(freq_status2)<- c("Pickup_Point","Hours","Frequency")
+freq_status2
+```
+
+### Plot3
+```{r}
+plot3 <- ggplot(uber,aes(x=factor(Request.Hour),fill=factor(Pickup.point)))+geom_bar(position = "dodge")+ labs(x="Cab Requested Hour",y="Number of Requests")+ ggtitle("Cabs Demand Status")+ theme_hc(base_size = 18, base_family = "sans") + scale_fill_manual("Pickup Point: ", values = c("Airport" = "red3", "City" = "green4")) + theme(plot.background = element_rect(fill="gray19"), axis.title.x = element_text(colour = "white"), axis.title.y = element_text(colour = "white"),axis.text.x = element_text(colour = "white"),axis.text.y = element_text(colour = "white"),title = element_text(colour = "white"),legend.title = element_text(colour = "black"),plot.title = element_text(hjust = 0.5))
+```
+
+```{r, fig.width = 10, echo=FALSE}
+plot3
+```       
+    
+### 5.4. Code and Plot4
+
+#### Hourly Frequency of requests status (i.e. "Completed", "No Cars Available" and "Trip Completed") 
+```{r}
+table(uber$Request.Hour,uber$Status)
+```
+
+#### Above Stats as a Data frame
+```{r}
+freq_status3 <- as.data.frame(table(uber$Request.Hour,uber$Status))
+colnames(freq_status3)<- c("Hours","Status","Frequency")
+freq_status3
+```
+         
+#### Plot4
+```{r}
+plot4 <- ggplot(uber,aes(x=factor(Request.Hour),fill=factor(Status)))+geom_bar(position = "dodge",width = 0.5)+ labs(x="Cab Requested Hour",y="Number of Requests")+ ggtitle("Cabs Non-availability by Hours") + theme_hc(base_size = 18, base_family = "sans") + scale_fill_manual("Status: ", values = c("Trip Completed" = "green4", "No Cars Available" = "yellow", "Cancelled" = "red3"))+ theme(plot.background = element_rect(fill="gray19"), axis.title.x = element_text(colour = "white"), axis.title.y = element_text(colour = "white"),axis.text.x = element_text(colour = "white"),axis.text.y = element_text(colour = "white"),title = element_text(colour = "white"),legend.title = element_text(colour = "black"),plot.title = element_text(hjust = 0.5)) 
+```
+         
+```{r, fig.width = 10, echo=FALSE}
+plot4
+```
+  
+               
+### 5.5. Code and Plot5 ::
+
+#### Request Status based on the Time Slots
+```{r}
+table(uber$Time_Slot,uber$Status)
+```
+
+#### Above Stats as a Data frame
+```{r}
+freq_status4 <- as.data.frame(table(uber$Time_Slot,uber$Status))
+colnames(freq_status4)<- c("Time_Slot","Status","Frequency")
+freq_status4
+```
+
+#### Plot5 - Plot for the time slots when the highest gap exists
+```{r}
+plot5 <- ggplot(uber,aes(x=factor(Time_Slot),fill=factor(Status)))+geom_bar(position = "dodge",width = 0.6)+ labs(x="Cab Requested Time",y="Frequency of Requests")+ ggtitle("Cabs Availability / Non-availability")+ theme_hc(base_size = 18, base_family = "sans") + scale_fill_manual("Status: ", values = c("Cancelled" = "red3", "No Cars Available" = "yellow", "Trip Completed" = "green4")) + theme(plot.background = element_rect(fill="gray19"), axis.title.x = element_text(colour = "white"), axis.title.y = element_text(colour = "white"),axis.text.x = element_text(colour = "white"),axis.text.y = element_text(colour = "white"),title = element_text(colour = "white"),legend.title = element_text(colour = "black"),plot.title = element_text(hjust = 0.5)) + 
+geom_text(stat="count",aes(label=..count..),vjust=-0.2,color="white", size=5.5,position=position_dodge(width=0.6))
+```       
+         
+```{r, fig.width = 12, fig.height = 7, echo=FALSE}
+plot5
+```
+             
+    
+### 5.6. Code and Plot6
+```{r, fig.width = 15, fig.height = 7}
+#### Frequecy of Request Status based in each Time Slots for Pickup Point
+table(uber$Time_Slot,uber$Status,uber$Pickup.point)
+```
+
+#### Above Stats as a Data frame
+```{r}
+freq_status_airport <- as.data.frame(summarise(group_by(subset(uber, uber$Pickup.point=="Airport"),Status), n()))
+colnames(freq_status_airport)[2] <- "Frequency"
+freq_status_airport
+```
+
+```{r}         
+freq_status_city <- as.data.frame(summarise(group_by(subset(uber, uber$Pickup.point=="City"),Status), n()))
+colnames(freq_status_city)[2] <- "Frequency"
+freq_status_city
+```
+
+#### Plot6 - Plot for types of requests (city-airport or airport-city) for which the gap is the most severe in the identified time slots
+ ```{r}
+plot6 <- ggplot(uber,aes(x=factor(Time_Slot),fill=factor(Status)))+geom_bar(position = "dodge",width = 0.6)+ labs(x="Cab Requested Time",y="Number of Requests")+ ggtitle("Availability / Non-availability of Cabs at Pickup-Point") + facet_wrap( ~ Pickup.point) + theme_hc(base_size = 24, base_family = "sans") + scale_fill_manual("Status: ", values = c("Trip Completed" = "green4", "No Cars Available" = "yellow", "Cancelled" = "red3")) + theme_dark() + 
+theme(plot.background = element_rect(fill="gray19"), axis.title.x = element_text(colour = "white"), axis.title.y = element_text(colour = "white"),axis.text.x = element_text(colour = "white"),axis.text.y = element_text(colour = "white"),title = element_text(colour = "white"),legend.title = element_text(colour = "black"),plot.title = element_text(hjust = 0.5)) + geom_text(stat="count",aes(label=..count..),vjust=-0.5,color="white", size=5.5,position=position_dodge(width=0.6))
+```
+
+```{r, fig.width = 15, fig.height = 7, echo=FALSE}
+plot6
+```   
+    
+        
+### 5.7. Percentage of "No Cars Availabe" in Evening at Pickup Point
+```{r}
+no_cars_availabe_airport <- length(which((uber$Pickup.point=="Airport") & (uber$Time_Slot == "Evening") & (uber$Status == "No Cars Available")))
+no_cars_availabe_city <- length(which((uber$Pickup.point=="City") & (uber$Time_Slot == "Evening") & (uber$Status == "No Cars Available")))
+```
+
+#### At Aiport
+```{r}
+percent(no_cars_availabe_airport/(no_cars_availabe_airport+no_cars_availabe_city))
+```
+
+#### At City
+```{r}
+percent(no_cars_availabe_city/(no_cars_availabe_airport+no_cars_availabe_city))
+```  
+        
+### 5.8. Percentage of Cabs Cancellation in Morning at Pickup Point
+```{r}
+Cancelled_airport <- length(which((uber$Pickup.point=="Airport") & (uber$Time_Slot == "Morning") & (uber$Status == "Cancelled")))
+Cancelled_city <- length(which((uber$Pickup.point=="City") & (uber$Time_Slot == "Morning") & (uber$Status == "Cancelled")))
+```
+
+#### At Aiport
+```{r}
+percent(Cancelled_airport/(Cancelled_airport+Cancelled_city))
+```
+
+#### At City
+```{r}
+percent(Cancelled_city/(Cancelled_airport+Cancelled_city))
+```
+    
+
+
+
+
+
+
