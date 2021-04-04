@@ -1,7 +1,3 @@
-## About Ayopop
-Ayopop is Indonesia's fastest growing mobile commerce platform for digital products such as Phone credit (Pulsa) and other.
-They collect data at transactional level, however because of regulatory environment, they need to keep  reserve at daily level for the transaction amount.
-
 ## Problem Description
 Analyse the transactional data and Identify such factors which impacts the daily transaction volume. Also, predict the daily transaction volume for next 5 days.
 
