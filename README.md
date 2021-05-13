@@ -9,3 +9,10 @@ Below are the list of some common Packages/Libraries which were used as a part o
 * **ML models:** randomForest, caret(for Data splitting, cross validation, Pre-processing, Feature selection, Variable importance estimation, etc.)
 * **Recommendation model:** recommenderlab
 * **Text Mining:** tm, tidyverse
+
+## Additional Reading:
+
+- To know more about dummy variables [(here)](https://stats.idre.ucla.edu/other/mult-pkg/faq/general/faqwhat-is-dummy-coding)
+- Why it's necessary to create dummy variables [(here)](https://stats.stackexchange.com/questions/89533/convert-a-categorical-variable-to-a-numerical-variable-prior-to-regression)
+- When to Normalise date and when to standardise? [(here)](https://stackoverflow.com/questions/32108179/linear-regression-normalization-vs-standardization)
+- Various scaling techniques [(here)](https://en.wikipedia.org/wiki/Feature_scaling)
