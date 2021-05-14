@@ -16,3 +16,4 @@ Below are the list of some common Packages/Libraries which were used as a part o
 - Why it's necessary to create dummy variables [(here)](https://stats.stackexchange.com/questions/89533/convert-a-categorical-variable-to-a-numerical-variable-prior-to-regression)
 - When to Normalise date and when to standardise? [(here)](https://stackoverflow.com/questions/32108179/linear-regression-normalization-vs-standardization)
 - Various scaling techniques [(here)](https://en.wikipedia.org/wiki/Feature_scaling)
+- Recursive Feature Elimination(RFE) - scikit-learn [(here)](https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.RFE.html)
