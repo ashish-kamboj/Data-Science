@@ -18,4 +18,5 @@ Consider a real estate company has a data set of the prices in the region of Del
 - Build multiple linear regression model
   - Check the variable significance using p-value and VIF
 - Model Evaluation
+  - Measures like R-square, adjusted R-square
  
