@@ -14,4 +14,8 @@ Consider a real estate company has a data set of the prices in the region of Del
 - Rescaling the features
   - Normalization
   - standardization
+- Split data into train and test dataset
+- Build multiple linear regression model
+  - Check the variable significance using p-value and VIF
+- Model Evaluation
  
