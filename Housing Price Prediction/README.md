@@ -17,7 +17,8 @@ Consider a real estate company has a data set of the prices in the region of Del
 - Split data into train and test dataset
 - Build multiple linear regression model
   - Check the variable significance using p-value and VIF
-    - manual way (removing column by column by checking it's p-value and VIF value)
+    - Manual way (removing column by column by checking it's p-value and VIF value)
+    - Automated way (through Recursive Feature elimination function/utility)
 - Model Evaluation
   - Measures like R-square, adjusted R-square
  
