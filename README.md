@@ -5,11 +5,11 @@ Repository contains the various projects with code written in R Language for-
 
 Below are the list of some common Packages/Libraries which were used as a part of the data analyis and building Machine learning model
 * **Data Manipulation:** 
-*   - **R ::** dplyr, plyr, tidyr, stringr, data.table, lubridate(for date manipulation)
-*   - **Python ::** Pandas
+  - **R ::** dplyr, plyr, tidyr, stringr, data.table, lubridate(for date manipulation)
+  - **Python ::** Pandas
 * **Data Visualization:** 
-*   - **R ::** ggplot2, cowplot, ggthemes, scales
-*   - **Python ::** matplotlib, seaborn
+  - **R ::** ggplot2, cowplot, ggthemes, scales
+  - **Python ::** matplotlib, seaborn
 * **ML models:** randomForest, caret(for Data splitting, cross validation, Pre-processing, Feature selection, Variable importance estimation, etc.)
 * **Recommendation model:** recommenderlab
 * **Text Mining:** tm, tidyverse
@@ -30,3 +30,9 @@ Below are the list of some common Packages/Libraries which were used as a part o
 ## Related Mathematics
 - [Mathplanet - Exponentials](https://www.mathplanet.com/education/algebra-1/exponents-and-exponential-functions/properties-of-exponents)
 - [Mathplanet - Logarithms](https://www.mathplanet.com/education/algebra-2/exponential-and-logarithmic-functions/logarithm-property)
+
+## Model Evaluation
+  - **Regression**
+    - R-squared/Adj. R-squared
+    - Root Mean Squared Error(RMSE) / Mean Squared Error
+    - Mean Absolute Error(MAE)
