@@ -36,3 +36,10 @@ Below are the list of some common Packages/Libraries which were used as a part o
     - R-squared/Adj. R-squared
     - Root Mean Squared Error(RMSE) / Mean Squared Error
     - Mean Absolute Error(MAE)
+  - **Classification** [(here)](https://towardsdatascience.com/the-5-classification-evaluation-metrics-you-must-know-aa97784ff226)
+    - Accuracy, Precision, and Recall
+    - F1 Score
+    - Log Loss/Binary Crossentropy
+    - Categorical Crossentropy
+    - AUC
+    - Confusion Matrix
