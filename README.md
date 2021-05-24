@@ -28,6 +28,9 @@ Below are the list of some common Packages/Libraries which were used as a part o
 - Optimization Methods [(here)](https://www.springer.com/cda/content/document/cda_downloaddocument/9783642378454-c2.pdf?SGWID=0-0-45-1425030-p175100176)
 - A brief overview of Feature Scaling [(here)](https://en.wikipedia.org/wiki/Feature_scaling)
 - When to standardise, when to normalise [(here)](https://stackoverflow.com/questions/32108179/linear-regression-normalization-vs-standardization)
+- All about When and How to do train_test_split and pre_processing
+  - [Things to know before train and test split](https://towardsdatascience.com/3-things-you-need-to-know-before-you-train-test-split-869dfabb7e50)
+  - [Data Preparation without data leakage](https://machinelearningmastery.com/data-preparation-without-data-leakage/)
 
 ## Related Mathematics
 - [Mathplanet - Exponentials](https://www.mathplanet.com/education/algebra-1/exponents-and-exponential-functions/properties-of-exponents)
