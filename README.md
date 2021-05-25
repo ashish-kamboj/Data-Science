@@ -37,6 +37,7 @@ Below are the list of some common Packages/Libraries which were used as a part o
   - [Things to know before train and test split](https://towardsdatascience.com/3-things-you-need-to-know-before-you-train-test-split-869dfabb7e50)
   - [Data Preparation without data leakage](https://machinelearningmastery.com/data-preparation-without-data-leakage/)
 - Dimensionality Reduction Algorithmns [(here)](https://machinelearningmastery.com/dimensionality-reduction-algorithms-with-python/)
+- Feature Selection [(here)](https://machinelearningmastery.com/feature-selection-machine-learning-python/)
 
 ## Related Mathematics
 - [Mathplanet - Exponentials](https://www.mathplanet.com/education/algebra-1/exponents-and-exponential-functions/properties-of-exponents)
