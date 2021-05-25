@@ -10,9 +10,13 @@ Below are the list of some common Packages/Libraries which were used as a part o
 * **Data Visualization:** 
   - **R ::** ggplot2, cowplot, ggthemes, scales
   - **Python ::** matplotlib, seaborn
-* **ML models:** randomForest, caret(for Data splitting, cross validation, Pre-processing, Feature selection, Variable importance estimation, etc.)
+* **ML models:** 
+  - **R ::** randomForest, caret(for Data splitting, cross validation, Pre-processing, Feature selection, Variable importance estimation, etc.)
+  - **Python ::** scikit-learn
 * **Recommendation model:** recommenderlab
-* **Text Mining:** tm, tidyverse
+* **Text Mining:** 
+  - **R ::** tm, tidyverse
+  - **Python ::** nltk, spaCy
 
 ## Additional Reading:
 
