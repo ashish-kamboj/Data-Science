@@ -43,7 +43,7 @@ Below are the list of some common Packages/Libraries which were used as a part o
   - [Introduction to factor analysis](http://www.tqmp.org/RegularArticles/vol09-2/p079/p079.pdf)
   - [Factor analysis Notes](http://cs229.stanford.edu/notes2020spring/cs229-notes9.pdf)
   - [Theory and practice questions on factor analysis](http://www.yorku.ca/ptryfos/f1400.pdf)\
--  Implementing recommendation systems
+- Implementing recommendation systems
   - [Recommender systems 101 – A step-by-step practical example in R](https://www.r-bloggers.com/recommender-systems-101-a-step-by-step-practical-example-in-r/)
   - [A framework for developing and testing recommendation algorithms](https://cran.r-project.org/web/packages/recommenderlab/vignettes/recommenderlab.pdf)
 
