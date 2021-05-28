@@ -39,6 +39,10 @@ Below are the list of some common Packages/Libraries which were used as a part o
 - Dimensionality Reduction Algorithmns [(here)](https://machinelearningmastery.com/dimensionality-reduction-algorithms-with-python/)
 - Feature Selection [(here)](https://machinelearningmastery.com/feature-selection-machine-learning-python/)
 - Naive Bayes Classification explanation [(here)](https://stackoverflow.com/questions/10059594/a-simple-explanation-of-naive-bayes-classification)
+- Factor Analysis
+  - [Introduction to factor analysis](http://www.tqmp.org/RegularArticles/vol09-2/p079/p079.pdf)
+  - [Factor analysis Notes](http://cs229.stanford.edu/notes2020spring/cs229-notes9.pdf)
+  - [Theory and practice questions on factor analysis](http://www.yorku.ca/ptryfos/f1400.pdf)
 
 ## Related Mathematics
 - [Mathplanet - Exponentials](https://www.mathplanet.com/education/algebra-1/exponents-and-exponential-functions/properties-of-exponents)
