@@ -48,6 +48,7 @@ Below are the list of some common Packages/Libraries which were used as a part o
   - [A framework for developing and testing recommendation algorithms](https://cran.r-project.org/web/packages/recommenderlab/vignettes/recommenderlab.pdf)
   - [Netflix implementation of recommendation engine](https://medium.com/netflix-techblog/netflix-recommendations-beyond-the-5-stars-part-1-55838468f429)
 - Understanding ROC curve [(here)](https://stats.stackexchange.com/questions/105501/understanding-roc-curve)
+- Feature Engineering and it's importance [(here)](https://machinelearningmastery.com/discover-feature-engineering-how-to-engineer-features-and-how-to-get-good-at-it/)
 
 ## Related Mathematics
 - [Mathplanet - Exponentials](https://www.mathplanet.com/education/algebra-1/exponents-and-exponential-functions/properties-of-exponents)
