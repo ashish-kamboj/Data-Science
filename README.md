@@ -47,6 +47,7 @@ Below are the list of some common Packages/Libraries which were used as a part o
   - [Recommender systems 101 – A step-by-step practical example in R](https://www.r-bloggers.com/recommender-systems-101-a-step-by-step-practical-example-in-r/)
   - [A framework for developing and testing recommendation algorithms](https://cran.r-project.org/web/packages/recommenderlab/vignettes/recommenderlab.pdf)
   - [Netflix implementation of recommendation engine](https://medium.com/netflix-techblog/netflix-recommendations-beyond-the-5-stars-part-1-55838468f429)
+- Understanding ROC curve [(here)](https://stats.stackexchange.com/questions/105501/understanding-roc-curve)
 
 ## Related Mathematics
 - [Mathplanet - Exponentials](https://www.mathplanet.com/education/algebra-1/exponents-and-exponential-functions/properties-of-exponents)
