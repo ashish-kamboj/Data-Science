@@ -5,13 +5,13 @@ Repository contains the various projects with code written in Pythona and R Lang
 
 Below are the list of some common Packages/Libraries which were used as a part of the data analyis and building Machine learning model
 
-| Data Operations        | Python             | R                                                                         |
-|------------------------|--------------------|---------------------------------------------------------------------------|
-| **Data Manipulation**  | Pandas             | dplyr, plyr, tidyr, stringr, data.table, lubridate(for date manipulation) |
-| **Data Visualization** | matplotlib, seaborn| ggplot2, cowplot, ggthemes, scales                                        |
-| **ML Models**          | scikit-learn       | randomForest, caret(for Data splitting, cross validation, Pre-processing, Feature selection, Variable importance estimation, etc.)  | 
-| **Recommender Model**  |                    | recommenderlab                                                            |
-| **Text Mining**        | nltk, spaCy        | tm, tidyverse                                                             |
+| Data Operations          | Python             | R                                                                         |
+|--------------------------|--------------------|---------------------------------------------------------------------------|
+| **Data Manipulation**    | Pandas             | dplyr, plyr, tidyr, stringr, data.table, lubridate(for date manipulation) |
+| **Data Visualization**   | matplotlib, seaborn| ggplot2, cowplot, ggthemes, scales                                        |
+| **ML Models**            | scikit-learn       | randomForest, caret(for Data splitting, cross validation, Pre-processing, Feature selection, Variable importance estimation, etc.)  | 
+| **Recommender Model**    |                    | recommenderlab                                                            |
+| **Text Mining**          | nltk, spaCy        | tm, tidyverse                                                             |
 
 
 ## Additional Reading:
