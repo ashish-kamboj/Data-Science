@@ -14,6 +14,13 @@ Below are the list of some common Packages/Libraries which were used as a part o
 | **Text Mining**             | nltk, spaCy         | tm, tidyverse                                                             |
 
 
+
+| Projects                    | Algorithms                 | Programming Languages                                                                         |
+|:----------------------------|:---------------------------|---------------------------------------------------------------------------|
+| AirBnB Price Prediction     | XGBoost                    | R |
+| Amaze Payment Solution EDA  | EDA                        | R |
+
+
 ## Additional Reading:
 <details>
   <summary>Click to expand!</summary>
