@@ -15,10 +15,12 @@ Below are the list of some common Packages/Libraries which were used as a part o
 
 
 
-| Projects                    | Algorithms                 | Programming Languages                                                                         |
-|:----------------------------|:---------------------------|---------------------------------------------------------------------------|
-| AirBnB Price Prediction     | XGBoost                    | R |
-| Amaze Payment Solution EDA  | EDA                        | R |
+| Projects                    | Algorithms                                      | Programming Languages         |
+|:----------------------------|:------------------------------------------------|-------------------------------|
+| AirBnB Price Prediction     | XGBoost                                         | R |
+| Amaze Payment Solution EDA  | EDA                                             | R |
+| Beer Recommendation System  | Collaborative Filtering, Content-Based Filtering| R |
+|Car Pricing Model            | Linear Regression                               | R |
 
 
 ## Additional Reading:
