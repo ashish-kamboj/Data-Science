@@ -22,6 +22,8 @@ Below are the list of some common Packages/Libraries which were used as a part o
 | Beer Recommendation System  | Collaborative Filtering, Content-Based Filtering| R |
 |Car Pricing Model            | Linear Regression                               | R |
 |Credit Card Defaulter        | Random Forest                                   | R |
+|Customer Segmentation        | K-Means, hierarchical clustering                | R |
+|Email Classification         | SVM                                             | R |
 
 
 
