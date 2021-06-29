@@ -69,7 +69,9 @@ Below are the list of some common Packages/Libraries which were used as a part o
 - XGBoost
   - [XGBoost Algorithm - Medium](https://towardsdatascience.com/https-medium-com-vishalmorde-xgboost-algorithm-long-she-may-rein-edd9f99be63d)
   - [A Gentle Introduction to XGBoost for Applied Machine Learning](https://machinelearningmastery.com/gentle-introduction-xgboost-applied-machine-learning/)
-- LightGBM [(here)](https://medium.com/@pushkarmandot/https-medium-com-pushkarmandot-what-is-lightgbm-how-to-implement-it-how-to-fine-tune-the-parameters-60347819b7fc)
+- LightGBM 
+  - [What is LightGBM, How to implement it? How to fine tune the parameters?](https://medium.com/@pushkarmandot/https-medium-com-pushkarmandot-what-is-lightgbm-how-to-implement-it-how-to-fine-tune-the-parameters-60347819b7fc)
+  - [How to Develop a Light Gradient Boosted Machine (LightGBM) Ensemble](https://machinelearningmastery.com/light-gradient-boosted-machine-lightgbm-ensemble/)
 - Logistic Regression [(here)](https://towardsdatascience.com/introduction-to-logistic-regression-66248243c148)
 
 ## Related Mathematics
