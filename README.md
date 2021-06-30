@@ -77,6 +77,7 @@ Below are the list of some common Packages/Libraries which were used as a part o
   - [ML|Voting Classifier using Sklearn](https://www.geeksforgeeks.org/ml-voting-classifier-using-sklearn/)
   - [How to Develop Voting Ensembles With Python](https://machinelearningmastery.com/voting-ensembles-with-python/)
   - [How VOTing classifiers work!](https://towardsdatascience.com/how-voting-classifiers-work-f1c8e41d30ff)
+- Time-Series forecasting in Python(AR, MA, ARIMA, SARIMA and SARIMAX model) [(here)](https://www.machinelearningplus.com/time-series/arima-model-time-series-forecasting-python/)
 
 ## Related Mathematics
 - [Mathplanet - Exponentials](https://www.mathplanet.com/education/algebra-1/exponents-and-exponential-functions/properties-of-exponents)
