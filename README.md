@@ -73,6 +73,10 @@ Below are the list of some common Packages/Libraries which were used as a part o
   - [What is LightGBM, How to implement it? How to fine tune the parameters?](https://medium.com/@pushkarmandot/https-medium-com-pushkarmandot-what-is-lightgbm-how-to-implement-it-how-to-fine-tune-the-parameters-60347819b7fc)
   - [How to Develop a Light Gradient Boosted Machine (LightGBM) Ensemble](https://machinelearningmastery.com/light-gradient-boosted-machine-lightgbm-ensemble/)
 - Logistic Regression [(here)](https://towardsdatascience.com/introduction-to-logistic-regression-66248243c148)
+- Voting Ensembles
+  - [ML|Voting Classifier using Sklearn](https://www.geeksforgeeks.org/ml-voting-classifier-using-sklearn/)
+  - [How to Develop Voting Ensembles With Python](https://machinelearningmastery.com/voting-ensembles-with-python/)
+  - [How VOTing classifiers work!](https://towardsdatascience.com/how-voting-classifiers-work-f1c8e41d30ff)
 
 ## Related Mathematics
 - [Mathplanet - Exponentials](https://www.mathplanet.com/education/algebra-1/exponents-and-exponential-functions/properties-of-exponents)
