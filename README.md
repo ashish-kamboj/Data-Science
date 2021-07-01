@@ -87,7 +87,13 @@ Below are the list of some common Packages/Libraries which were used as a part o
   - [6 Different Ways to Compensate for Missing Values In a Dataset (Data Imputation with examples)](https://towardsdatascience.com/6-different-ways-to-compensate-for-missing-values-data-imputation-with-examples-6022d9ca0779)
 - LightGBM Vs XGBoost
   - [Which algorithm takes the crown: Light GBM vs XGBOOST?](https://www.analyticsvidhya.com/blog/2017/06/which-algorithm-takes-the-crown-light-gbm-vs-xgboost/)
-   
+- Gradient Descent
+  - [Gradient Descent For Machine Learning](https://machinelearningmastery.com/gradient-descent-for-machine-learning/#:~:text=You%20learned%20that%3A-,Optimization%20is%20a%20big%20part%20of%20machine%20learning.,data%20before%20calculating%20an%20update.)
+- Gradient
+  - [What Is a Gradient in Machine Learning?](https://machinelearningmastery.com/gradient-in-machine-learning/)
+- Stochastic Gradient
+  - [Stochastic Gradient Descent — Clearly Explained !!](https://towardsdatascience.com/stochastic-gradient-descent-clearly-explained-53d239905d31) 
+  - [Stochastic Gradient Descent Algorithm With Python and NumPy](https://realpython.com/gradient-descent-algorithm-python/)
 
 ## Related Mathematics
 - [Mathplanet - Exponentials](https://www.mathplanet.com/education/algebra-1/exponents-and-exponential-functions/properties-of-exponents)
