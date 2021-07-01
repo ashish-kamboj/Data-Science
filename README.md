@@ -85,6 +85,9 @@ Below are the list of some common Packages/Libraries which were used as a part o
   - [Multivariate time series forecasting](https://towardsdatascience.com/multivariate-time-series-forecasting-653372b3db36)
 - Missing values Imputation
   - [6 Different Ways to Compensate for Missing Values In a Dataset (Data Imputation with examples)](https://towardsdatascience.com/6-different-ways-to-compensate-for-missing-values-data-imputation-with-examples-6022d9ca0779)
+- LightGBM Vs XGBoost
+  - [Which algorithm takes the crown: Light GBM vs XGBOOST?](https://www.analyticsvidhya.com/blog/2017/06/which-algorithm-takes-the-crown-light-gbm-vs-xgboost/)
+   
 
 ## Related Mathematics
 - [Mathplanet - Exponentials](https://www.mathplanet.com/education/algebra-1/exponents-and-exponential-functions/properties-of-exponents)
