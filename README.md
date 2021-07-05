@@ -25,6 +25,10 @@ Below are the list of some common Packages/Libraries which were used as a part o
 |Credit Card Defaulter        | Random Forest                                   | R |
 |Customer Segmentation        | K-Means, hierarchical clustering                | R |
 |Email Classification         | SVM                                             | R |
+|Employee Attrition Model     | Logistic Regression                             | R |
+|Global Investment Trends     | EDA                                             | R |
+|Housing Price Prediction     | Linear Regression(OLS)                          | Python |
+|Letter Recognition           | SVM                                             | R |
 
 <br></br>
 ---
