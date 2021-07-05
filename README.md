@@ -30,6 +30,7 @@ Below are the list of some common Packages/Libraries which were used as a part o
 |Housing Price Prediction     | Linear Regression(OLS)                          | Python |
 |Letter Recognition           | SVM                                             | R |
 |Loan Defaulter-EDA           | EDA                                             | R |
+|Monthly Income               | Decision Tree                                   | R |
 
 <br></br>
 ---
