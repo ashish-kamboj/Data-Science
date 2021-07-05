@@ -29,6 +29,7 @@ Below are the list of some common Packages/Libraries which were used as a part o
 |Global Investment Trends     | EDA                                             | R |
 |Housing Price Prediction     | Linear Regression(OLS)                          | Python |
 |Letter Recognition           | SVM                                             | R |
+|Loan Defaulter-EDA           | EDA                                             | R |
 
 <br></br>
 ---
