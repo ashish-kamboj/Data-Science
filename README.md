@@ -1,4 +1,4 @@
-### Packages/Libraries used for data analyis and building Machine learning models
+## Packages/Libraries used for data analyis and building Machine learning models
 
 | Data Operations             | Python              | R                                                                         |
 |:----------------------------|:------------------- |---------------------------------------------------------------------------|
@@ -6,12 +6,13 @@
 | **Data Visualization**      | matplotlib, seaborn | ggplot2, cowplot, ggthemes, scales                                        |
 | **Recommender Model**       |                     | recommenderlab                                                            |
 | **Text Mining**             | nltk, spaCy         | tm, tidyverse                                                             |
+| **ML Models**               | scikit-learn        | randomForest, caret(for Data splitting, cross validation, Pre-processing, Feature selection, Variable importance estimation, etc.)  | 
 
 <p></p>
 
 ---
 
-### ML and EDA Projects
+## ML and EDA Projects
 
 | Projects                    | Algorithms                                      | Programming Languages         |
 |:----------------------------|:------------------------------------------------|-------------------------------|
