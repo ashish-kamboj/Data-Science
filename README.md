@@ -7,7 +7,11 @@ Below are the list of some common Packages/Libraries which were used as a part o
 
 | Data Operations             | Python              | R                                                                         |
 |:----------------------------|:------------------- |---------------------------------------------------------------------------|
-| Data Manipulation | Pandas              | dplyr, plyr, tidyr, stringr, data.table, lubridate(for date manipulation) |
+| Data Manipulation       | Pandas              | dplyr, plyr, tidyr, stringr, data.table, lubridate(for date manipulation) |
+| Data Visualization      | matplotlib, seaborn | ggplot2, cowplot, ggthemes, scales                                        |
+| ML Models               | scikit-learn        | randomForest, caret(for Data splitting, cross validation, Pre-processing, Feature selection, Variable importance estimation, etc.)  | 
+| Recommender Model       |                     | recommenderlab                                                            |
+| Text Mining             | nltk, spaCy         | tm, tidyverse                                                             |
 
 <p></p>
 
@@ -28,6 +32,8 @@ Below are the list of some common Packages/Libraries which were used as a part o
 |[Letter Recognition](https://github.com/ashish-kamboj/Data-Science/tree/master/Letter%20Recognition)           | SVM                                             | R |
 |[Loan Defaulter-EDA](https://github.com/ashish-kamboj/Data-Science/tree/master/Loan%20Defaulter-EDA)           | EDA                                             | R |
 |[Monthly Income](https://github.com/ashish-kamboj/Data-Science/tree/master/Monthly%20Income)               | Decision Tree                                   | R |
+|[Saavn_Ecomm_Ads_Segmentation](https://github.com/ashish-kamboj/Data-Science/tree/master/Saavn_Ecomm_Ads_Segmentation)               | Clustering (k-prototype)                                  | R |
+|[Sales and Demand Forecasting](https://github.com/ashish-kamboj/Data-Science/tree/master/Sales%20and%20Demand%20Forecasting)               | Time-Series (ARMA, ARIMA)                                   | R |
 
 <p></p>
 
