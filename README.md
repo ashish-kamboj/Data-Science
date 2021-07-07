@@ -7,32 +7,32 @@ Below are the list of some common Packages/Libraries which were used as a part o
 
 | Data Operations             | Python              | R                                                                         |
 |:----------------------------|:------------------- |---------------------------------------------------------------------------|
-| **Data Manipulation**       | Pandas              | dplyr, plyr, tidyr, stringr, data.table, lubridate(for date manipulation) |
-| **Data Visualization**      | matplotlib, seaborn | ggplot2, cowplot, ggthemes, scales                                        |
-| **ML Models**               | scikit-learn        | randomForest, caret(for Data splitting, cross validation, Pre-processing, Feature selection, Variable importance estimation, etc.)  | 
-| **Recommender Model**       |                     | recommenderlab                                                            |
-| **Text Mining**             | nltk, spaCy         | tm, tidyverse                                                             |
+| Data Manipulation       | Pandas              | dplyr, plyr, tidyr, stringr, data.table, lubridate(for date manipulation) |
+| Data Visualization      | matplotlib, seaborn | ggplot2, cowplot, ggthemes, scales                                        |
+| ML Models               | scikit-learn        | randomForest, caret(for Data splitting, cross validation, Pre-processing, Feature selection, Variable importance estimation, etc.)  | 
+| Recommender Model       |                     | recommenderlab                                                            |
+| Text Mining             | nltk, spaCy         | tm, tidyverse                                                             |
 
-<br></br>
+<p></p>
 ---
 
 | Projects                    | Algorithms                                      | Programming Languages         |
 |:----------------------------|:------------------------------------------------|-------------------------------|
 | [AirBnB Price Prediction](https://github.com/ashish-kamboj/Data-Science/tree/master/AirBnB%20Price%20Prediction)     | XGBoost                                         | R |
-| Amaze Payment Solution EDA  | EDA                                             | R |
-| Beer Recommendation System  | Collaborative Filtering, Content-Based Filtering| R |
-|Car Pricing Model            | Linear Regression                               | R |
-|Credit Card Defaulter        | Random Forest                                   | R |
-|Customer Segmentation        | K-Means, hierarchical clustering                | R |
-|Email Classification         | SVM                                             | R |
-|Employee Attrition Model     | Logistic Regression                             | R |
-|Global Investment Trends     | EDA                                             | R |
-|Housing Price Prediction     | Linear Regression(OLS)                          | Python |
-|Letter Recognition           | SVM                                             | R |
-|Loan Defaulter-EDA           | EDA                                             | R |
-|Monthly Income               | Decision Tree                                   | R |
+| [Amaze Payment Solution EDA](https://github.com/ashish-kamboj/Data-Science/tree/master/Amaze%20Payment%20Solution%20EDA)  | EDA                                             | R |
+| [Beer Recommendation System](https://github.com/ashish-kamboj/Data-Science/tree/master/Beer%20Recommendation%20System)  | Collaborative Filtering, Content-Based Filtering| R |
+|[Car Pricing Model](https://github.com/ashish-kamboj/Data-Science/tree/master/Car%20Pricing%20Model)            | Linear Regression                               | R |
+|[Credit Card Defaulter](https://github.com/ashish-kamboj/Data-Science/tree/master/Credit%20Card%20Defaulter)        | Random Forest                                   | R |
+|[Customer Segmentation](https://github.com/ashish-kamboj/Data-Science/tree/master/Customer%20Segmentation)        | K-Means, hierarchical clustering                | R |
+|[Email Classification](https://github.com/ashish-kamboj/Data-Science/tree/master/Email%20Classification)         | SVM                                             | R |
+|[Employee Attrition Model](https://github.com/ashish-kamboj/Data-Science/tree/master/Employee%20Attrition%20Model)     | Logistic Regression                             | R |
+|[Global Investment Trends](https://github.com/ashish-kamboj/Data-Science/tree/master/Global%20Investment%20Trends)     | EDA                                             | R |
+|[Housing Price Prediction](https://github.com/ashish-kamboj/Data-Science/tree/master/Housing%20Price%20Prediction)     | Linear Regression(OLS)                          | Python |
+|[Letter Recognition](https://github.com/ashish-kamboj/Data-Science/tree/master/Letter%20Recognition)           | SVM                                             | R |
+|[Loan Defaulter-EDA](https://github.com/ashish-kamboj/Data-Science/tree/master/Loan%20Defaulter-EDA)           | EDA                                             | R |
+|[Monthly Income](https://github.com/ashish-kamboj/Data-Science/tree/master/Monthly%20Income)               | Decision Tree                                   | R |
 
-<br></br>
+<p></p>
 ---
 
 ## Additional Reading:
