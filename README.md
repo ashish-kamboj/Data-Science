@@ -1,20 +1,17 @@
-## EDA and ML Projects
-Repository contains the various projects with code written in Pythona and R Language for-
-* Exploratory Data Analysis
-* Machine Learning Models (Linear Regression, Logistic Regression, k-means Clustering, Hierarchical Clustering, SVM, Desicion Tree, Random Forest, Time-Series Analysis, XGBoost)
-
-Below are the list of some common Packages/Libraries which were used as a part of the data analyis and building Machine learning model
+### Packages/Libraries used for data analyis and building Machine learning models
 
 | Data Operations             | Python              | R                                                                         |
 |:----------------------------|:------------------- |---------------------------------------------------------------------------|
-| Data Manipulation       | Pandas              | dplyr, plyr, tidyr, stringr, data.table, lubridate(for date manipulation) |
-| Data Visualization      | matplotlib, seaborn | ggplot2, cowplot, ggthemes, scales                                        |
-| Recommender Model       |                     | recommenderlab                                                            |
-| Text Mining             | nltk, spaCy         | tm, tidyverse                                                             |
+| **Data Manipulation**       | Pandas              | dplyr, plyr, tidyr, stringr, data.table, lubridate(for date manipulation) |
+| **Data Visualization**      | matplotlib, seaborn | ggplot2, cowplot, ggthemes, scales                                        |
+| **Recommender Model**       |                     | recommenderlab                                                            |
+| **Text Mining**             | nltk, spaCy         | tm, tidyverse                                                             |
 
 <p></p>
 
 ---
+
+### ML and EDA Projects
 
 | Projects                    | Algorithms                                      | Programming Languages         |
 |:----------------------------|:------------------------------------------------|-------------------------------|
@@ -33,6 +30,9 @@ Below are the list of some common Packages/Libraries which were used as a part o
 |[Monthly Income](https://github.com/ashish-kamboj/Data-Science/tree/master/Monthly%20Income)               | Decision Tree                                   | R |
 |[Saavn_Ecomm_Ads_Segmentation](https://github.com/ashish-kamboj/Data-Science/tree/master/Saavn_Ecomm_Ads_Segmentation)               | Clustering (k-prototype)                                  | R |
 |[Sales and Demand Forecasting](https://github.com/ashish-kamboj/Data-Science/tree/master/Sales%20and%20Demand%20Forecasting)               | Time-Series (ARMA, ARIMA)                                   | R |
+|[Telecom Churn Model](https://github.com/ashish-kamboj/Data-Science/tree/master/Telecom%20Churn%20Model)               | Logistic Regression                                   | R, Python |
+|[Transaction-data-analysis-and-prediction](https://github.com/ashish-kamboj/Data-Science/tree/master/Transaction-data-analysis-and-prediction)               | Time-Series(ARIMA)                                   | R |
+|[Uber Supply-Demand Gap](https://github.com/ashish-kamboj/Data-Science/tree/master/Uber%20Supply-Demand%20Gap)               | EDA                                   | R |
 
 <p></p>
 
