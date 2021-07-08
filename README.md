@@ -1,4 +1,4 @@
-## Packages/Libraries used for data analyis and building Machine learning models
+## <ins>Packages/Libraries used for data analyis and building Machine learning models<ins>
 
 | Data Operations             | Python              | R                                                                         |
 |:----------------------------|:------------------- |---------------------------------------------------------------------------|
@@ -12,7 +12,7 @@
 
 ---
 
-## ML and EDA Projects
+## <ins>ML and EDA Projects<ins>
 
 | Projects                    | Algorithms                                      | Programming Languages         |
 |:----------------------------|:------------------------------------------------|-------------------------------|
@@ -39,7 +39,7 @@
 
 ---
 
-## Additional Reading:
+## <ins>Additional Reading<ins>
 <details>
   <summary>Click to expand!</summary>
   
