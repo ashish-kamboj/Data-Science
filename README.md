@@ -106,11 +106,11 @@
   - [Stochastic Gradient Descent — Clearly Explained !!](https://towardsdatascience.com/stochastic-gradient-descent-clearly-explained-53d239905d31) 
   - [Stochastic Gradient Descent Algorithm With Python and NumPy](https://realpython.com/gradient-descent-algorithm-python/)
 - Clustering
- - [10 Clustering Algorithms With Python](https://machinelearningmastery.com/clustering-algorithms-with-python/)
- - [Clustering Algorithm for data with mixed Categorical and Numerical features](https://towardsdatascience.com/clustering-algorithm-for-data-with-mixed-categorical-and-numerical-features-d4e3a48066a0)
- - [Understanding K-Means, K-Means++ and, K-Medoids Clustering Algorithms](https://towardsdatascience.com/understanding-k-means-k-means-and-k-medoids-clustering-algorithms-ad9c9fbf47ca)
- - [Clustering datasets having both numerical and categorical variables](https://towardsdatascience.com/clustering-datasets-having-both-numerical-and-categorical-variables-ed91cdca0677)
- - [K-ModesClustering](https://medium.com/@shailja.nitp2013/k-modesclustering-ef6d9ef06449)
+  - [10 Clustering Algorithms With Python](https://machinelearningmastery.com/clustering-algorithms-with-python/)
+  - [Clustering Algorithm for data with mixed Categorical and Numerical features](https://towardsdatascience.com/clustering-algorithm-for-data-with-mixed-categorical-and-numerical-features-d4e3a48066a0)
+  - [Understanding K-Means, K-Means++ and, K-Medoids Clustering Algorithms](https://towardsdatascience.com/understanding-k-means-k-means-and-k-medoids-clustering-algorithms-ad9c9fbf47ca)
+  - [Clustering datasets having both numerical and categorical variables](https://towardsdatascience.com/clustering-datasets-having-both-numerical-and-categorical-variables-ed91cdca0677)
+  - [K-ModesClustering](https://medium.com/@shailja.nitp2013/k-modesclustering-ef6d9ef06449)
 - KNN Overview and finding optimal value of K [(here)](https://towardsdatascience.com/how-to-find-the-optimal-value-of-k-in-knn-35d936e554eb#:~:text=The%20optimal%20K%20value%20usually,be%20aware%20of%20the%20outliers.) 
 
 ## Related Mathematics
