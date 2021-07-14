@@ -29,6 +29,7 @@
 |[Letter Recognition](https://github.com/ashish-kamboj/Data-Science/tree/master/Letter%20Recognition)           | SVM                                             | R |
 |[Loan Defaulter-EDA](https://github.com/ashish-kamboj/Data-Science/tree/master/Loan%20Defaulter-EDA)           | EDA                                             | R |
 |[Monthly Income](https://github.com/ashish-kamboj/Data-Science/tree/master/Monthly%20Income)               | Decision Tree                                   | R |
+|[SMS Classification](https://github.com/ashish-kamboj/Data-Science/tree/master/SMS%20Classification)               | Multinomial and Bernoulli Naive Bayes                                   | Python |
 |[Saavn_Ecomm_Ads_Segmentation](https://github.com/ashish-kamboj/Data-Science/tree/master/Saavn_Ecomm_Ads_Segmentation)               | Clustering (k-prototype)                                  | R |
 |[Sales and Demand Forecasting](https://github.com/ashish-kamboj/Data-Science/tree/master/Sales%20and%20Demand%20Forecasting)               | Time-Series (ARMA, ARIMA)                                   | R |
 |[Telecom Churn Model](https://github.com/ashish-kamboj/Data-Science/tree/master/Telecom%20Churn%20Model)               | Logistic Regression                                   | R, Python |
