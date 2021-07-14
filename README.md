@@ -113,6 +113,9 @@
   - [Clustering datasets having both numerical and categorical variables](https://towardsdatascience.com/clustering-datasets-having-both-numerical-and-categorical-variables-ed91cdca0677)
   - [K-ModesClustering](https://medium.com/@shailja.nitp2013/k-modesclustering-ef6d9ef06449)
 - KNN Overview and finding optimal value of K [(here)](https://towardsdatascience.com/how-to-find-the-optimal-value-of-k-in-knn-35d936e554eb#:~:text=The%20optimal%20K%20value%20usually,be%20aware%20of%20the%20outliers.) 
+- Which Classification metric to choose and when?
+  - [The 5 Classification Evaluation metrics every Data Scientist must know](https://towardsdatascience.com/the-5-classification-evaluation-metrics-you-must-know-aa97784ff226)
+  - [Classification Metrics & Thresholds Explained](https://towardsdatascience.com/classification-metrics-thresholds-explained-caff18ad2747)
 
 ## Related Mathematics
 - [Mathplanet - Exponentials](https://www.mathplanet.com/education/algebra-1/exponents-and-exponential-functions/properties-of-exponents)
