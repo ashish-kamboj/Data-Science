@@ -7,7 +7,7 @@ Need to create a predictive model that is capable of to predict whether a shipme
 ## Data Dictionary
 
 |Dataset columns        |Description
-|-----------------------|-------------------------------------------------------------------------|
+|:-----------------------|:-------------------------------------------------------------------------|
 |order_id               |Unique Id of order
 |shipment_id            |Unique Id of shipment
 |awb_code               |(Airwaybill) Code that provides detailed information about the shipment
