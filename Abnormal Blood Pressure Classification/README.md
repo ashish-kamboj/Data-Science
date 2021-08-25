@@ -13,4 +13,4 @@ two-tailed preliminary prediction of abnormality of blood pressure in an individ
 Employing statistical techniques, conduct a preliminary prognosis of Hypertension/hypotension, based on the level of hemoglobin and genetic history of the individual.
 
 ## Data Dictionary
-(https://github.com/ashish-kamboj/Data-Science/tree/master/Abnormal%20Blood%20Pressure%20Classification/images/data_dictionary.png)
+![](https://github.com/ashish-kamboj/Data-Science/tree/master/Abnormal%20Blood%20Pressure%20Classification/images/data_dictionary.png)
