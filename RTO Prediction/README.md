@@ -28,3 +28,7 @@ Need to create a predictive model that is capable of to predict whether a shipme
 |delivery_city          |Shipment delivery city
 |delivery_state         |Shipment Delivery state
 |is_rto                 |RTO Flag (Target Column)
+
+## Data Cleaning
+
+## Model Building
