@@ -14,3 +14,6 @@ Employing statistical techniques, conduct a preliminary prognosis of Hypertensio
 
 ## Data Dictionary
 ![Data_Dictionary](https://github.com/ashish-kamboj/Data-Science/blob/master/Abnormal%20Blood%20Pressure%20Classification/images/data_dictionary.png)
+
+## Gradio Application
+![Blood Pressure Abnormality Prediction Gradio Application](https://github.com/ashish-kamboj/Data-Science/blob/master/Abnormal%20Blood%20Pressure%20Classification/images/blood_pressure_abnormality_prediction_gradio_app.gif)
