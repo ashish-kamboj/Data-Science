@@ -16,8 +16,10 @@
 
 | Projects                    | Algorithms                                      | Programming Languages         |
 |:----------------------------|:------------------------------------------------|-------------------------------|
+| [Abnormal Blood Pressure Classification](https://github.com/ashish-kamboj/Data-Science/tree/master/Abnormal%20Blood%20Pressure%20Classification) | Logistic Regression, Decision Trees, Random Forest, XGBoost, LightGBM | Python |
 | [AirBnB Price Prediction](https://github.com/ashish-kamboj/Data-Science/tree/master/AirBnB%20Price%20Prediction)     | XGBoost                                         | R |
 | [Amaze Payment Solution EDA](https://github.com/ashish-kamboj/Data-Science/tree/master/Amaze%20Payment%20Solution%20EDA)  | EDA                                             | R |
+| [Amazon Marketplace Best Sellers Identification](https://github.com/ashish-kamboj/Data-Science/tree/master/Amazon%20Marketplace%20Best%20Sellers%20Identification) | K-Means | Python
 | [Beer Recommendation System](https://github.com/ashish-kamboj/Data-Science/tree/master/Beer%20Recommendation%20System)  | Collaborative Filtering, Content-Based Filtering| R |
 |[Car Pricing Model](https://github.com/ashish-kamboj/Data-Science/tree/master/Car%20Pricing%20Model)            | Linear Regression                               | R |
 |[Credit Card Defaulter](https://github.com/ashish-kamboj/Data-Science/tree/master/Credit%20Card%20Defaulter)        | Random Forest                                   | R |
