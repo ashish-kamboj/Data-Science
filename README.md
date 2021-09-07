@@ -16,7 +16,7 @@
 
 | Projects                    | Algorithms                                      | Programming Languages         |
 |:----------------------------|:------------------------------------------------|-------------------------------|
-| [Abnormal Blood Pressure Classification](https://github.com/ashish-kamboj/Data-Science/tree/master/Abnormal%20Blood%20Pressure%20Classification) | Logistic Regression, Decision Trees, Random Forest, XGBoost, LightGBM | Python |
+| [Abnormal Blood Pressure Classification](https://github.com/ashish-kamboj/Data-Science/tree/master/Abnormal%20Blood%20Pressure%20Classification) | Logistic Regression, Decision Trees, Random Forest, XGBoost, LightGBM and other classification algorithms| Python |
 | [AirBnB Price Prediction](https://github.com/ashish-kamboj/Data-Science/tree/master/AirBnB%20Price%20Prediction)     | XGBoost                                         | R |
 | [Amaze Payment Solution EDA](https://github.com/ashish-kamboj/Data-Science/tree/master/Amaze%20Payment%20Solution%20EDA)  | EDA                                             | R |
 | [Amazon Marketplace Best Sellers Identification](https://github.com/ashish-kamboj/Data-Science/tree/master/Amazon%20Marketplace%20Best%20Sellers%20Identification) | K-Means | Python
@@ -31,6 +31,7 @@
 |[Letter Recognition](https://github.com/ashish-kamboj/Data-Science/tree/master/Letter%20Recognition)           | SVM                                             | R |
 |[Loan Defaulter-EDA](https://github.com/ashish-kamboj/Data-Science/tree/master/Loan%20Defaulter-EDA)           | EDA                                             | R |
 |[Monthly Income](https://github.com/ashish-kamboj/Data-Science/tree/master/Monthly%20Income)               | Decision Tree                                   | R |
+| [RTO Prediction](https://github.com/ashish-kamboj/Data-Science/tree/master/RTO%20Prediction)              | Logistic Regression, Decision Trees, Random Forest, XGBoost, LightGBM  and other classification algorithms| Python |
 |[SMS Classification](https://github.com/ashish-kamboj/Data-Science/tree/master/SMS%20Classification)               | Multinomial and Bernoulli Naive Bayes                                   | Python |
 |[Saavn_Ecomm_Ads_Segmentation](https://github.com/ashish-kamboj/Data-Science/tree/master/Saavn_Ecomm_Ads_Segmentation)               | Clustering (k-prototype)                                  | R |
 |[Sales and Demand Forecasting](https://github.com/ashish-kamboj/Data-Science/tree/master/Sales%20and%20Demand%20Forecasting)               | Time-Series (ARMA, ARIMA)                                   | R |
