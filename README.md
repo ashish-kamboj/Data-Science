@@ -6,7 +6,7 @@
 | **Data Visualization**      | matplotlib, seaborn | ggplot2, cowplot, ggthemes, scales                                        |
 | **Recommender Model**       |                     | recommenderlab                                                            |
 | **Text Mining**             | nltk, spaCy         | tm, tidyverse                                                             |
-| **ML Models**               | scikit-learn        | randomForest, rpart, caret, lm, glm, forecast, tseries, kernlab | 
+| **ML Models**               | scikit-learn, PyCaret        | randomForest, rpart, caret, lm, glm, forecast, tseries, kernlab | 
 
 <p></p>
 
