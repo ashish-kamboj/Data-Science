@@ -5,6 +5,26 @@ Dataset of publicly available info on ecommerce sellers in the Garden category i
 To sanitize and analyze the data to profile the sellers present, and develop selection criteria to identify the best or most promising sellers in this dataset, in order to reach out to them.
 
 ## Data Description
+|Columns                                | Description
+|:---------------------------------------------------|------------------------------------------------
+|Date Added                                          | Date when seller was added
+|category                                            | Category of seller
+|sellerlink                                          |
+|sellerlink-url                                      |
+|sellerstorefront-url                                | 
+|sellerproductcount                                  | Number of listed products on Amazon
+|sellerratings                                       | Rating percentage based on the total rating provided
+|sellerdetails                                       | Seller contact information
+|seller business name                                | Business Name
+|businessaddress                                     | Seller Business Address
+|Count of seller brands                              | Count of products sell by seller
+|Max % of negative seller ratings - last 30 days     | Negative Rating percentage
+|Max % of negative seller ratings - last 90 days     | Negative Rating percentage
+|Max % of negative seller ratings - last 12 months   | Negative Rating percentage
+|Hero Product 1 #ratings                             | Total rating provided to the top selling product
+|Hero Product 2 #ratings                             | Total rating provided to the second top selling product
+|Sample brand name                                   | Brand Name
+|Sample Brand URL                                    | Brand URL
 
 ## Data Preparation
  - **sellerproductcount** - gives you the count of products in the form '1-16 of over 100,000 results' , parse out the product count 100,000 .
