@@ -5,8 +5,8 @@ Dataset of publicly available info on ecommerce sellers in the Garden category i
 To sanitize and analyze the data to profile the sellers present, and develop selection criteria to identify the best or most promising sellers in this dataset, in order to reach out to them.
 
 ## Data Description
-|Columns                                | Description
-|:---------------------------------------------------|------------------------------------------------
+|Columns                                             | Description
+|:---------------------------------------------------|:------------------------------------------------
 |Date Added                                          | Date when seller was added
 |category                                            | Category of seller
 |sellerlink                                          |
