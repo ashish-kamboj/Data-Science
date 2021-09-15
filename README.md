@@ -24,7 +24,7 @@
 |[Car Pricing Model](https://github.com/ashish-kamboj/Data-Science/tree/master/Car%20Pricing%20Model)            | Linear Regression                               | R |
 |[Credit Card Defaulter](https://github.com/ashish-kamboj/Data-Science/tree/master/Credit%20Card%20Defaulter)        | Random Forest                                   | R |
 |[Customer Segmentation](https://github.com/ashish-kamboj/Data-Science/tree/master/Customer%20Segmentation)        | K-Means, hierarchical clustering                | R |
-|[Email Classification](https://github.com/ashish-kamboj/Data-Science/tree/master/Email%20Classification)         | SVM                                             | R |
+|[Email Classification](https://github.com/ashish-kamboj/Data-Science/tree/master/Email%20Classification)         | Linear SVM                                             | R, Python |
 |[Employee Attrition Model](https://github.com/ashish-kamboj/Data-Science/tree/master/Employee%20Attrition%20Model)     | Logistic Regression                             | R |
 |[Global Investment Trends](https://github.com/ashish-kamboj/Data-Science/tree/master/Global%20Investment%20Trends)     | EDA                                             | R |
 |[Housing Price Prediction](https://github.com/ashish-kamboj/Data-Science/tree/master/Housing%20Price%20Prediction)     | Linear Regression(OLS)                          | Python |
