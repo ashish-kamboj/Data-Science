@@ -27,7 +27,30 @@
 |[Email Classification](https://github.com/ashish-kamboj/Data-Science/tree/master/Email%20Classification)         | Linear SVM                                             | R, Python |
 |[Employee Attrition Model](https://github.com/ashish-kamboj/Data-Science/tree/master/Employee%20Attrition%20Model)     | Logistic Regression                             | R |
 |[Global Investment Trends](https://github.com/ashish-kamboj/Data-Science/tree/master/Global%20Investment%20Trends)     | EDA                                             | R |
-|A
+|[Housing Price Prediction](https://github.com/ashish-kamboj/Data-Science/tree/master/Housing%20Price%20Prediction)     | Linear Regression(OLS)                          | Python |
+|[Letter Recognition](https://github.com/ashish-kamboj/Data-Science/tree/master/Letter%20Recognition)           | SVM                                             | R |
+|[Loan Defaulter-EDA](https://github.com/ashish-kamboj/Data-Science/tree/master/Loan%20Defaulter-EDA)           | EDA                                             | R |
+|[Monthly Income](https://github.com/ashish-kamboj/Data-Science/tree/master/Monthly%20Income)               | Decision Tree                                   | R |
+| [RTO Prediction](https://github.com/ashish-kamboj/Data-Science/tree/master/RTO%20Prediction)              | Logistic Regression, Decision Trees, Random Forest, XGBoost, LightGBM  and other classification algorithms| Python |
+|[SMS Classification](https://github.com/ashish-kamboj/Data-Science/tree/master/SMS%20Classification)               | Multinomial and Bernoulli Naive Bayes                                   | Python |
+|[Saavn_Ecomm_Ads_Segmentation](https://github.com/ashish-kamboj/Data-Science/tree/master/Saavn_Ecomm_Ads_Segmentation)               | Clustering (k-prototype)                                  | R |
+|[Sales and Demand Forecasting](https://github.com/ashish-kamboj/Data-Science/tree/master/Sales%20and%20Demand%20Forecasting)               | Time-Series (ARMA, ARIMA)                                   | R |
+|[Telecom Churn Model](https://github.com/ashish-kamboj/Data-Science/tree/master/Telecom%20Churn%20Model)               | Logistic Regression                                   | R, Python |
+|[Transaction-data-analysis-and-prediction](https://github.com/ashish-kamboj/Data-Science/tree/master/Transaction-data-analysis-and-prediction)               | Time-Series(ARIMA)                                   | R |
+|[Uber Supply-Demand Gap](https://github.com/ashish-kamboj/Data-Science/tree/master/Uber%20Supply-Demand%20Gap)               | EDA                                   | R |
+
+<p></p>
+
+---
+
+## <ins>Additional Reading<ins>
+<details>
+  <summary>Click to expand!</summary>
+
+- To know more about dummy variables [(here)](https://stats.idre.ucla.edu/other/mult-pkg/faq/general/faqwhat-is-dummy-coding)
+- Why it's necessary to create dummy variables [(here)](https://stats.stackexchange.com/questions/89533/convert-a-categorical-variable-to-a-numerical-variable-prior-to-regression)
+- Missing Values Imputation [(here)](https://towardsdatascience.com/6-different-ways-to-compensate-for-missing-values-data-imputation-with-examples-6022d9ca0779)
+- When to Normalise date and when to standardise? [(here)](https://stackoverflow.com/questions/32108179/linear-regression-normalization-vs-standardization)
 - Various scaling techniques [(here)](https://en.wikipedia.org/wiki/Feature_scaling)
 - Recursive Feature Elimination(RFE) - scikit-learn [(here)](https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.RFE.html)
   - Recursive feature elimination is based on the idea to repeatedly construct a model (for example an SVM or a regression model) and choose either the best or worst performing feature (for example based on coefficients), setting the feature aside and then repeating the process with the rest of the features. This process is applied until all features in the dataset are exhausted. Features are then ranked according to when they were eliminated. As such, it is a greedy optimization for finding the best performing subset of features. Read more at this [link](http://blog.datadive.net/selecting-good-features-part-iv-stability-selection-rfe-and-everything-side-by-side/)
