@@ -1,6 +1,9 @@
 ## Problem Statement:
 
-A classic problem in the field of pattern recognition is that of handwritten digit recognition. Suppose that we have an image of a digit submitted by a user via a scanner, a tablet, or other digital devices. So, I had to develop a model that can correctly identify the digit (between 0-9) written in an image.
+Contains the 26 English alphabets as classes, so it's a multiclass classification problem with 26 classes. Each row in the data set represents an image of a handwritten alphabet, as shown in figure 1(A). Using some basic image processing, the images are converted into m X n pixels, where m and n depend on the size and resolution of the original image. Each pixel contains numeric values, with higher values denoting the presence of dense 'ink'. In the pixels where nothing is written, the pixel value is 0.
+
+A pixel is called 'on' if it contains to a positive numeric value, else it is called 'off'. Using the pixelated images, 16 features are derived for each image, such as the width of the box, the ratio of the mean variance of x divided by the width of the box, etc.  
+
 
 ## About Dataset:
 
