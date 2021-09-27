@@ -18,6 +18,6 @@ As a part of the solution, I've done the
 	- Renaming columns
 2. scaing of variables, as they are of varied ranges
 3. Build a SVM model using **Linear Kernel** and **RBF Kernel**
-4. **Hyperparameter tuning and Cross Validation**
+4. Hyperparameter tuning and Cross Validation
 	- Performed 5-fold cross validation by "svmLinear" method and metric used is accuracy, to get the optimal value of C (cost of misclassification)
 	- Performed 5-fold cross validation by "svmRadial" method and metric used is accuracy,  in order to get the optimal value of C and Sigma (sigma to control the amount of nonlinearity in the model. The higher the value of sigma, the more is the nonlinearity introduced).
