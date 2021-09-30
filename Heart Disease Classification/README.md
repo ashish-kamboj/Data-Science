@@ -13,5 +13,8 @@
 - number of major vessels (0-3) colored by flourosopy
 - thal: 3 = normal; 6 = fixed defect; 7 = reversable defect
 
+Heart disease = 1 means the person doesn’t have heart disease
+Heart disease = 2 means the person has heart disease   
+
 ## Model Building
 Build Decision Tree for classifying patients with Heart disease or not
