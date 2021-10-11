@@ -16,28 +16,28 @@
 
 | Projects                    | Algorithms                                      | Programming Languages         |
 |:----------------------------|:------------------------------------------------|-------------------------------|
-| [Abnormal Blood Pressure Classification](https://github.com/ashish-kamboj/Data-Science/tree/master/Abnormal%20Blood%20Pressure%20Classification) | Logistic Regression, Decision Trees, Random Forest, XGBoost, LightGBM and other classification algorithms| Python |
-| [AirBnB Price Prediction](https://github.com/ashish-kamboj/Data-Science/tree/master/AirBnB%20Price%20Prediction)     | XGBoost                                         | R |
-| [Amaze Payment Solution EDA](https://github.com/ashish-kamboj/Data-Science/tree/master/Amaze%20Payment%20Solution%20EDA)  | EDA                                             | R |
-| [Amazon Marketplace Best Sellers Identification](https://github.com/ashish-kamboj/Data-Science/tree/master/Amazon%20Marketplace%20Best%20Sellers%20Identification) | K-Means | Python
-| [Beer Recommendation System](https://github.com/ashish-kamboj/Data-Science/tree/master/Beer%20Recommendation%20System)  | Collaborative Filtering, Content-Based Filtering| R |
-|[Car Pricing Model](https://github.com/ashish-kamboj/Data-Science/tree/master/Car%20Pricing%20Model)            | Linear Regression                               | R |
-|[Credit Card Defaulter](https://github.com/ashish-kamboj/Data-Science/tree/master/Credit%20Card%20Defaulter)        | Random Forest                                   | R |
-|[Customer Segmentation](https://github.com/ashish-kamboj/Data-Science/tree/master/Customer%20Segmentation)        | K-Means, hierarchical clustering                | R |
-|[Email Classification](https://github.com/ashish-kamboj/Data-Science/tree/master/Email%20Classification)         | Linear SVM                                             | R, Python |
-|[Employee Attrition Model](https://github.com/ashish-kamboj/Data-Science/tree/master/Employee%20Attrition%20Model)     | Logistic Regression                             | R |
-|[Global Investment Trends](https://github.com/ashish-kamboj/Data-Science/tree/master/Global%20Investment%20Trends)     | EDA                                             | R |
-|[Housing Price Prediction](https://github.com/ashish-kamboj/Data-Science/tree/master/Housing%20Price%20Prediction)     | Linear Regression(OLS)                          | Python |
-|[Letter Recognition](https://github.com/ashish-kamboj/Data-Science/tree/master/Letter%20Recognition)           | SVM                                             | R |
-|[Loan Defaulter-EDA](https://github.com/ashish-kamboj/Data-Science/tree/master/Loan%20Defaulter-EDA)           | EDA                                             | R |
-|[Monthly Income](https://github.com/ashish-kamboj/Data-Science/tree/master/Monthly%20Income)               | Decision Tree                                   | R |
-| [RTO Prediction](https://github.com/ashish-kamboj/Data-Science/tree/master/RTO%20Prediction)              | Logistic Regression, Decision Trees, Random Forest, XGBoost, LightGBM  and other classification algorithms| Python |
-|[SMS Classification](https://github.com/ashish-kamboj/Data-Science/tree/master/SMS%20Classification)               | Multinomial and Bernoulli Naive Bayes                                   | Python |
-|[Saavn_Ecomm_Ads_Segmentation](https://github.com/ashish-kamboj/Data-Science/tree/master/Saavn_Ecomm_Ads_Segmentation)               | Clustering (k-prototype)                                  | R |
-|[Sales and Demand Forecasting](https://github.com/ashish-kamboj/Data-Science/tree/master/Sales%20and%20Demand%20Forecasting)               | Time-Series (ARMA, ARIMA)                                   | R |
-|[Telecom Churn Model](https://github.com/ashish-kamboj/Data-Science/tree/master/Telecom%20Churn%20Model)               | Logistic Regression                                   | R, Python |
-|[Transaction-data-analysis-and-prediction](https://github.com/ashish-kamboj/Data-Science/tree/master/Transaction-data-analysis-and-prediction)               | Time-Series(ARIMA)                                   | R |
-|[Uber Supply-Demand Gap](https://github.com/ashish-kamboj/Data-Science/tree/master/Uber%20Supply-Demand%20Gap)               | EDA                                   | R |
+| [Abnormal Blood Pressure Classification](https://git.io/JoNxc) | Logistic Regression, Decision Trees, Random Forest, XGBoost, LightGBM and other classification algorithms| Python |
+| [AirBnB Price Prediction](https://git.io/JoNxr)     | XGBoost                                         | R |
+| [Amaze Payment Solution EDA](https://git.io/JoNxM)  | EDA                                             | R |
+| [Amazon Marketplace Best Sellers Identification](https://git.io/JoNxh) | K-Means | Python
+| [Beer Recommendation System](https://git.io/JoNpt)  | Collaborative Filtering, Content-Based Filtering| R |
+|[Car Pricing Model](https://git.io/JoNpR)            | Linear Regression                               | R |
+|[Credit Card Defaulter](https://git.io/JoNpa)        | Random Forest                                   | R |
+|[Customer Segmentation](https://git.io/JoNp1)        | K-Means, hierarchical clustering                | R |
+|[Email Classification](https://git.io/JoNp5)         | Linear SVM                                             | R, Python |
+|[Employee Attrition Model](https://git.io/JoNpj)     | Logistic Regression                             | R |
+|[Global Investment Trends](https://git.io/JoNhO)     | EDA                                             | R |
+|[Housing Price Prediction](https://git.io/JoNhC)     | Linear Regression(OLS)                          | Python |
+|[Letter Recognition](https://git.io/JoNh2)           | SVM                                             | R |
+|[Loan Defaulter-EDA](https://git.io/JoNh6)           | EDA                                             | R |
+|[Monthly Income](https://git.io/JoNh9)               | Decision Tree                                   | R |
+| [RTO Prediction](https://git.io/JoNhh)              | Logistic Regression, Decision Trees, Random Forest, XGBoost, LightGBM  and other classification algorithms| Python |
+|[SMS Classification](https://git.io/JoNjq)           | Multinomial and Bernoulli Naive Bayes           | Python |
+|[Saavn_Ecomm_Ads_Segmentation](https://git.io/JoNjZ) | Clustering (k-prototype)                        | R |
+|[Sales and Demand Forecasting](https://git.io/JoNjy) | Time-Series (ARMA, ARIMA)                       | R |
+|[Telecom Churn Model](https://git.io/JoNjj)          | Logistic Regression                             | R, Python |
+|[Transaction-data-analysis-and-prediction](https://git.io/JoAe3)  | Time-Series(ARIMA)                 | R |
+|[Uber Supply-Demand Gap](https://git.io/JoAea)        | EDA                                            | R |
 
 <p></p>
 
