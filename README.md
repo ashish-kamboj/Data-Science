@@ -16,22 +16,26 @@
 
 | Projects                    | Algorithms                                      | Programming Languages         |
 |:----------------------------|:------------------------------------------------|-------------------------------|
-| [Abnormal Blood Pressure Classification](https://git.io/JoNxc) | Logistic Regression, Decision Trees, Random Forest, XGBoost, LightGBM and other classification algorithms| Python |
-| [AirBnB Price Prediction](https://git.io/JoNxr)     | XGBoost                                         | R |
-| [Amaze Payment Solution EDA](https://git.io/JoNxM)  | EDA                                             | R |
-| [Amazon Marketplace Best Sellers Identification](https://git.io/JoNxh) | K-Means | Python
-| [Beer Recommendation System](https://git.io/JoNpt)  | Collaborative Filtering, Content-Based Filtering| R |
+|[Abnormal Blood Pressure Classification](https://git.io/JoNxc) | Logistic Regression, Decision Trees, Random Forest, XGBoost, LightGBM and other classification algorithms| Python |
+|[AirBnB Price Prediction](https://git.io/JoNxr)     | XGBoost                                          | R |
+|[Amaze Payment Solution EDA](https://git.io/JoNxM)  | EDA                                              | R |
+|[Amazon Marketplace Best Sellers Identification](https://git.io/JoNxh) | K-Means                       | Python |
+|[Beer Recommendation System](https://git.io/JoNpt)  | Collaborative Filtering, Content-Based Filtering | R |
+|[Breast Cancer Prediction](https://git.io/JKOCm)     | AdaBoost                                        | Python |
 |[Car Pricing Model](https://git.io/JoNpR)            | Linear Regression                               | R |
-|[Credit Card Defaulter](https://git.io/JoNpa)        | Random Forest                                   | R |
+|[Credit Card Defaulter](https://git.io/JoNpa)        | Random Forest                                   | R, Python |
+|[Credit Worthiness For Rural India](https://git.io/JKOCP) | Linear/Lasso/Ridge/Elastic Net Regression, Decision Tree Regressor, Random Forest Regressor and other Regression algorithms |    Python |
 |[Customer Segmentation](https://git.io/JoNp1)        | K-Means, hierarchical clustering                | R |
 |[Email Classification](https://git.io/JoNp5)         | Linear SVM                                             | R, Python |
 |[Employee Attrition Model](https://git.io/JoNpj)     | Logistic Regression                             | R |
 |[Global Investment Trends](https://git.io/JoNhO)     | EDA                                             | R |
+|[Handwritten Digit Recognition](https://git.io/JKOWb)| SVM (Linear and RBF)                            | R |
+|[Heart Disease Classification](https://git.io/JKOlY) | Decision Tree                                   | Python |
 |[Housing Price Prediction](https://git.io/JoNhC)     | Linear Regression(OLS)                          | Python |
-|[Letter Recognition](https://git.io/JoNh2)           | SVM                                             | R |
+|[Letter Recognition](https://git.io/JoNh2)           | SVM (Linear and RBF)                            | Python |
 |[Loan Defaulter-EDA](https://git.io/JoNh6)           | EDA                                             | R |
 |[Monthly Income](https://git.io/JoNh9)               | Decision Tree                                   | R |
-| [RTO Prediction](https://git.io/JoNhh)              | Logistic Regression, Decision Trees, Random Forest, XGBoost, LightGBM  and other classification algorithms| Python |
+|[RTO Prediction](https://git.io/JoNhh)               | Logistic Regression, Decision Trees, Random Forest, XGBoost, LightGBM  and other classification algorithms| Python |
 |[SMS Classification](https://git.io/JoNjq)           | Multinomial and Bernoulli Naive Bayes           | Python |
 |[Saavn_Ecomm_Ads_Segmentation](https://git.io/JoNjZ) | Clustering (k-prototype)                        | R |
 |[Sales and Demand Forecasting](https://git.io/JoNjy) | Time-Series (ARMA, ARIMA)                       | R |
