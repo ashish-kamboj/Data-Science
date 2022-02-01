@@ -24,8 +24,10 @@
 |[Breast Cancer Prediction](https://git.io/JKOCm)     | AdaBoost                                        | Python |
 |[Car Pricing Model](https://git.io/JoNpR)            | Linear Regression                               | R |
 |[Credit Card Defaulter](https://git.io/JoNpa)        | Random Forest                                   | R, Python |
+|[Credit Risk Analysis](https://bit.ly/3GlC965)       | EDA                                             | R |
 |[Credit Worthiness For Rural India](https://git.io/JKOCP) | Linear/Lasso/Ridge/Elastic Net Regression, Decision Tree Regressor, Random Forest Regressor and other Regression algorithms |    Python |
 |[Customer Segmentation](https://git.io/JoNp1)        | K-Means, hierarchical clustering                | R |
+|[Digital Media Company Viewership Prediction](https://bit.ly/3ANqv2O) |                                | Python |
 |[Email Classification](https://git.io/JoNp5)         | Linear SVM                                             | R, Python |
 |[Employee Attrition Model](https://git.io/JoNpj)     | Logistic Regression                             | R |
 |[Global Investment Trends](https://git.io/JoNhO)     | EDA                                             | R |
@@ -35,6 +37,7 @@
 |[Letter Recognition](https://git.io/JoNh2)           | SVM (Linear and RBF)                            | Python |
 |[Loan Defaulter-EDA](https://git.io/JoNh6)           | EDA                                             | R |
 |[Monthly Income](https://git.io/JoNh9)               | Decision Tree                                   | R |
+|[Movie Recommendation System](https://bit.ly/3Glh5fQ | Collaborative Filtering, Content-Based Filtering| R |
 |[RTO Prediction](https://git.io/JoNhh)               | Logistic Regression, Decision Trees, Random Forest, XGBoost, LightGBM  and other classification algorithms| Python |
 |[SMS Classification](https://git.io/JoNjq)           | Multinomial and Bernoulli Naive Bayes           | Python |
 |[Saavn_Ecomm_Ads_Segmentation](https://git.io/JoNjZ) | Clustering (k-prototype)                        | R |
