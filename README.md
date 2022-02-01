@@ -37,7 +37,7 @@
 |[Letter Recognition](https://git.io/JoNh2)           | SVM (Linear and RBF)                            | Python |
 |[Loan Defaulter-EDA](https://git.io/JoNh6)           | EDA                                             | R |
 |[Monthly Income](https://git.io/JoNh9)               | Decision Tree                                   | R |
-|[Movie Recommendation System](https://bit.ly/3Glh5fQ | Collaborative Filtering, Content-Based Filtering| R |
+|[Movie Recommendation System](https://bit.ly/3Glh5fQ) | Collaborative Filtering, Content-Based Filtering| R |
 |[RTO Prediction](https://git.io/JoNhh)               | Logistic Regression, Decision Trees, Random Forest, XGBoost, LightGBM  and other classification algorithms| Python |
 |[SMS Classification](https://git.io/JoNjq)           | Multinomial and Bernoulli Naive Bayes           | Python |
 |[Saavn_Ecomm_Ads_Segmentation](https://git.io/JoNjZ) | Clustering (k-prototype)                        | R |
