@@ -129,6 +129,7 @@
 - Which Classification metric to choose and when?
   - [The 5 Classification Evaluation metrics every Data Scientist must know](https://towardsdatascience.com/the-5-classification-evaluation-metrics-you-must-know-aa97784ff226)
   - [Classification Metrics & Thresholds Explained](https://towardsdatascience.com/classification-metrics-thresholds-explained-caff18ad2747)
+  - [24 Evaluation Metrics for Binary Classification (And When to Use Them)](https://neptune.ai/blog/evaluation-metrics-binary-classification)
 - Ways of Encoding Categorical variables
   - [Smarter Ways to Encode Categorical Data for Machine Learning](https://towardsdatascience.com/smarter-ways-to-encode-categorical-data-for-machine-learning-part-1-of-3-6dca2f71b159)
 
